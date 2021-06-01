@@ -1,0 +1,33 @@
+{
+    "telugu":[
+        {
+            "id":0,
+            "cover":"https://www.sify.com/uploads/ala-vaikunthapurramloo-review-ubnjOKdbfabfa.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"ala"
+                },
+                {
+                    "sid":2,
+                    "sname":"kal"
+                }
+            ]     
+        },
+        {
+            "id":1,
+            "cover":"https://www.sify.com/uploads/ala-vaikunthapurramloo-review-ubnjOKdbfabfa.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"ala"
+                },
+                {
+                    "sid":2,
+                    "sname":"kal"
+                }
+            ]     
+        }
+    ]
+
+}
