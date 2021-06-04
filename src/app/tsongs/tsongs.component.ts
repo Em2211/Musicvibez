@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TsongsService } from '../tsongs.service';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-tsongs',
@@ -9,6 +10,19 @@ import { TsongsService } from '../tsongs.service';
 })
 export class TsongsComponent implements OnInit {
   songs:any;
+  audioObj=new Audio();
+  audioEvents=[
+    "ended",
+    "error",
+    "play",
+    "playing",
+    "pause",
+    "timeUpdate",
+    "canplay",
+    "loadedmetadata",
+    "loadstart"
+  ]
+ 
 
   constructor(private ar:ActivatedRoute, private tObj:TsongsService) { }
 
@@ -24,4 +38,38 @@ export class TsongsComponent implements OnInit {
       }
     )
   }
+
+
+  setVolume(ev){
+    this.audioObj.volume = ev.target.value
+    console.log(ev.target.value);
+  }
+  openSong(audio){
+    this.audioObj.src=audio;
+    this.audioObj.load();
+    this.audioObj.play();
+    console.log("button clicked")
+  }
+
+  play(){
+    console.log("clicked play")
+    this.audioObj.play();
+
+  }
+  pause(){
+    this.audioObj.pause();
+
+  }
+  stop(){
+    this.audioObj.pause();
+    this.audioObj.currentTime=0;
+  }
+
+  timeFormat(time,format="HH:mm:ss"){
+    const momentTime = time*1000;
+    return moment.utc(momentTime).format(format);
+
+  }
+  
 }
+

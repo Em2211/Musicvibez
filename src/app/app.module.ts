@@ -17,7 +17,7 @@ import { TsongsComponent } from './tsongs/tsongs.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,33 +1,202 @@
 {
     "telugu":[
         {
-            "id":0,
+            "id":"Ala Vaikuntapuramlo",
             "cover":"https://www.sify.com/uploads/ala-vaikunthapurramloo-review-ubnjOKdbfabfa.jpg",
             "movie":[
                 {
                     "sid":1,
-                    "sname":"ala"
+                    "sname":"Samajavaragamana",
+                    "singer":"Sid Sriram",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/75/Samajavaragamana%20-%20Male-(Telugu-wap.in).mp3",
+                    "time":"3:39"
+
                 },
                 {
                     "sid":2,
-                    "sname":"kal"
+                    "sname":"Ramulo Ramula",
+                    "singer":"Anurag Kulkarni, Mangli",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/74/Ramuloo%20Ramulaa-(Telugu-wap.in).mp3",
+                    "time":"4:05"
+                    
+                },
+                {
+                    "sid":3,
+                    "sname":"Sitharala Sirapadu" ,
+                    "singer":"Saketh,Sooranna",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/69/Sittharala%20Sirapadu-(Telugu-wap.in).mp3",
+                    "time":"3:04"
+                },
+                {
+                    "sid":4,
+                    "sname":"OMG Daddy",
+                    "singer":"Roll Rida, Rahul Sipligunj, Blazee, Rahul Nambiar, Rabbit Mac",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/73/OMG%20Daddy-(Telugu-wap.in).mp3",
+                    "time":"3:48"
+                },
+                {
+                    "sid":5,
+                    "sname":"Buttabomma",
+                    "singer":" Armaan Malik",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/72/Butta%20Bomma-(Telugu-wap.in).mp3",
+                    "time":"3:19"
                 }
             ]     
         },
         {
-            "id":1,
-            "cover":"https://www.sify.com/uploads/ala-vaikunthapurramloo-review-ubnjOKdbfabfa.jpg",
+            "id":"Love Story",
+            "cover":"https://static.toiimg.com/photo.cms?msid=80196210&resizemode=4",
             "movie":[
                 {
                     "sid":1,
-                    "sname":"ala"
+                    "sname":"Evo Evo Kalale",
+                    "singer":" Jonita Gandhi, Nakul Abhyankar",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/298/Evo%20Evo%20Kalale%20(Love%20Story)_64-(Telugu-wap.in).mp3",
+                    "time":"4:30"
+
                 },
                 {
                     "sid":2,
-                    "sname":"kal"
+                    "sname":"Ayy Pilla",
+                    "singer":" Haricharan",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/167/Ay%20Pilla%20(Love%20Story)_64-(Telugu-wap.in).mp3",
+                    "time":"4:14"
+
+                },
+                {
+                    "sid":3,
+                    "sname":"E Manchullo chekkillalo",
+                    "singer":"Saketh,Sooranna",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/253/Ee%20Manchullo%20Chekkillalo%20(15%2018%2024%20Love%20Story)_64-(Telugu-wap.in).mp3",
+                    "time":"4:33"
+                }
+            ]     
+        },
+        {
+            "id":"Vakeel Saab",
+            "cover":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/03/02/896366-pawankalyan-vakeelsaab.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Kadhulu Kadhulu",
+                    "singer":"Sri krishna, Hemachandra Vedala",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/317/Kadhulu%20Kadhulu%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
+                    "time":"2:56"
+
+                },
+                {
+                    "sid":2,
+                    "sname":"Maguva Maguva",
+                    "singer":" Sid Sriram",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/316/Maguva%20Maguva%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
+                    "time":"4:08"
+
+                },
+                {
+                    "sid":3,
+                    "sname":"Kanti Papa Kanti Papa",
+                    "singer":"Saketh,Sooranna",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/294/Kanti%20Papa%20Kanti%20Papa%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
+                    "time":"4:32"
+                }
+            ]     
+        },
+        {
+            "id":"RangDe",
+            "cover":"https://static.toiimg.com/photo/80073181.jpeg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Oorantha",
+                    "singer":"Mangli",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/300/Oorantha%20(Rang%20De)-(Telugu-wap.in).mp3",
+                    "time":"1:20"
+
+                },
+                {
+                    "sid":2,
+                    "sname":"Rangule",
+                    "singer":"Shwetha Mohan",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/296/Rangule%20(Rang%20De)_64-(Telugu-wap.in).mp3",
+                    "time":"4:24"
+
+                },
+                {
+                    "sid":3,
+                    "sname":"Chusi Nerchukoku",
+                    "singer":"David Samon",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/287/Choosi%20Nerchukoku%20(Rang%20De)_64-(Telugu-wap.in).mp3",
+                    "time":"3:11"
+                }
+            ]     
+        },
+        {
+            "id":"Jaathi Rathnalu",
+            "cover":"https://assets.thehansindia.com/h-upload/2021/03/27/1064482-jati-ratnalu.webp",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Almost Pan India",
+                    "singer":"Purnima",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/297/Almost%20Pan%20India%20Song%20(Jathi%20Ratnalu)-(Telugu-wap.in).mp3",
+                    "time":"1:20"
+
+                },
+                {
+                    "sid":2,
+                    "sname":"Chanchalguda Jail lo",
+                    "singer":"Yogi Sekar",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/282/Chanchalguda%20Jail%20Lo%20(Jathi%20Ratnalu)_64-(Telugu-wap.in).mp3",
+                    "time":"2:42"
+
+                },
+                {
+                    "sid":3,
+                    "sname":"Mana Jathi Rathnalu",
+                    "singer":" Rahul Sipligunj",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/256/Mana%20Jathi%20Ratnalu_64-(Telugu-wap.in).mp3",
+                    "time":"3:48"
+                },
+                {
+                    "sid":4,
+                    "sname":"Mana Jathi Rathnalu",
+                    "singer":" Ram Miriyala",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/168/Chitti%20(Jathi%20Ratnalu)_64-(Telugu-wap.in).mp3",
+                    "time":"3:11"
+                }
+            ]     
+        },
+        {
+            "id":"Sashi",
+            "cover":"http://telugu-wap.in/siteuploads/thumb/c/50_2.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Prema idhi prema",
+                    "singer":" Ishaq Vali, Bolt",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/318/Prema%20idhi%20Prema%202021_64-(Telugu-wap.in).mp3",
+                    "time":"3:58"
+
+                },
+                {
+                    "sid":2,
+                    "sname":"Chanchalguda Jail lo",
+                    "singer":"Sid Sriram",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/276/Okey%20Oka-(Telugu-wap.in).mp3",
+                    "time":"3:29"
+
+                },
+                {
+                    "sid":3,
+                    "sname":"Dheemthana",
+                    "singer":"Haricharan",
+                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/275/Dheemthana_64-(Telugu-wap.in).mp3",
+                    "time":"4:28"
                 }
             ]     
         }
+
+
     ]
 
 }

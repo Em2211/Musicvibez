@@ -14,7 +14,7 @@ export class TsongsService {
   }
   getSongsByIdWise(id):Observable<any>{
       
-    return this.hc.get<any>('http://localhost:3000/users/'+id)
+    return this.hc.get<any>('http://localhost:3000/telugu/'+id)
   }
 
 }

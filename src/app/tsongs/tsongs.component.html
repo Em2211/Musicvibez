@@ -1,4 +1,43 @@
-<div *ngFor="let s of songs[0].movie">
-    <h1 class="text-white">{{s.sid}}</h1>
-    <h1 class="text-white">{{s.sname}}</h1>
+<div class="row">
+    <div class="col-3 "></div>
+    <div class="col-6 ms-5">
+        <div >
+            <div class="row text-white">
+                <div class="col-6">
+                        <img src={{songs.cover}} width="100%">
+                </div>
+                <div class="col-6">
+                        
+                </div>
+            </div>
+            <div class="mt-3 mb-3">
+                <div class="text-white d-inline"><i class="fas fa-volume-up me-3 "></i></div>
+                <input type="range" min="0" max="1" step="0.01" value="0.5" (input)="setVolume($event)">
+            </div>
+            <div class="mb-3">
+                <button  (click)="play()">Play</button>
+                <button (click)="pause()">Pause</button>
+                <button (click)="stop()">Stop</button>
+
+            </div>
+            <table class="table text-white">
+                <thead>
+                    <tr>
+                    <th>#</th>
+                    <th>Song</th>
+                    <th>Singers</th>
+                    <th><i class="far fa-clock"></i></th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let s of songs.movie"  >
+                    <tr>
+                    <td>{{s.sid}}</td>
+                    <td (click)="openSong(s.audio)" id="pointer">{{s.sname}}</td>
+                    <td>{{s.singer}}</td>
+                    <td>{{s.time}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
