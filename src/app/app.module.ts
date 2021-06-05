@@ -6,13 +6,29 @@ import { HomeComponent } from './home/home.component';
 import { TeluguComponent } from './telugu/telugu.component';
 import { HttpClientModule} from '@angular/common/http';
 import { TsongsComponent } from './tsongs/tsongs.component';
+import { AlbumsComponent } from './albums/albums.component';
+import { HindiComponent } from './hindi/hindi.component';
+import { HsongsComponent } from './hsongs/hsongs.component';
+import { FavouritesComponent } from './favourites/favourites.component';
+import { TamilComponent } from './tamil/tamil.component';
+import { TamilsongsComponent } from './tamilsongs/tamilsongs.component';
+import { KannadaComponent } from './kannada/kannada.component';
+import { KannadasongsComponent } from './kannadasongs/kannadasongs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     TeluguComponent,
-    TsongsComponent
+    TsongsComponent,
+    AlbumsComponent,
+    HindiComponent,
+    HsongsComponent,
+    FavouritesComponent,
+    TamilComponent,
+    TamilsongsComponent,
+    KannadaComponent,
+    KannadasongsComponent
   ],
   imports: [
     BrowserModule,

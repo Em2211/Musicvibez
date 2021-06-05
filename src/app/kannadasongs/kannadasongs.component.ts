@@ -4,11 +4,12 @@ import * as moment from 'moment';
 import { SongsService } from '../songs.service';
 
 @Component({
-  selector: 'app-tsongs',
-  templateUrl: './tsongs.component.html',
-  styleUrls: ['./tsongs.component.css']
+  selector: 'app-kannadasongs',
+  templateUrl: './kannadasongs.component.html',
+  styleUrls: ['./kannadasongs.component.css']
 })
-export class TsongsComponent implements OnInit {
+export class KannadasongsComponent implements OnInit {
+
   songs:any;
   audioObj=new Audio();
   audioEvents=[
@@ -24,11 +25,11 @@ export class TsongsComponent implements OnInit {
   ]
  
 
-  constructor(private ar:ActivatedRoute, private tObj:SongsService) { }
+  constructor(private ar:ActivatedRoute, private sObj:SongsService) { }
 
   ngOnInit(): void {
     let id=this.ar.snapshot.params.id;
-    this.tObj.getSongsByIdWise(id).subscribe(
+    this.sObj.getKannadaSongsByIdWise(id).subscribe(
       sdata=>{
         this.songs=sdata;
         console.log(this.songs);
@@ -53,7 +54,10 @@ export class TsongsComponent implements OnInit {
 
   play(){
     console.log("clicked play")
-    this.audioObj.play();
+    if (!this.audioObj.onplaying){
+      this.audioObj.play();
+    }
+
   }
   pause(){
     this.audioObj.pause();
@@ -70,5 +74,5 @@ export class TsongsComponent implements OnInit {
 
   }
   
-}
 
+}

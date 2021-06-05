@@ -1,5 +1,6 @@
 img{
     border-radius: 30px;
+    cursor: pointer;
 }
 h3{
     margin-left: 100px;

@@ -3,28 +3,29 @@ import { Router } from '@angular/router';
 import { LanguageService } from '../language.service';
 
 @Component({
-  selector: 'app-telugu',
-  templateUrl: './telugu.component.html',
-  styleUrls: ['./telugu.component.css']
+  selector: 'app-hindi',
+  templateUrl: './hindi.component.html',
+  styleUrls: ['./hindi.component.css']
 })
-export class TeluguComponent implements OnInit {
-  telugu:any;
+export class HindiComponent implements OnInit {
+
+ hindi:any;
   constructor( private sObj:Router,private tObj:LanguageService) { }
 
   ngOnInit(): void {
-    this.tObj.getTeluguSongs().subscribe(
+    this.tObj.getHindiSongs().subscribe(
       tdata=>{
-        this.telugu=tdata;
+        this.hindi=tdata;
       },
       err=>{
         console.log('error in loading data',err)
       }
     )
   }
-
   onClick(id){
-    this.sObj.navigateByUrl('home/telugu/'+id)
+    this.sObj.navigateByUrl('home/hindi/'+id)
   }
  
 
+  
 }

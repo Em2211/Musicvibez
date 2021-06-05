@@ -15,32 +15,14 @@
                 </div>
                 
             </div>
-            <!--<div class="button text-white mt-3">
-                <div class="prev-track" onclick="prevTrack()" class="d-inline">
-                  <i class="fa fa-step-backward fa-2x "></i>
-                </div>
-                <div class="playpause-track" onclick="playpauseTrack()" class="d-inline">
-                  <i class="fa fa-play-circle fa-2x "></i>
-                </div>
-                <div class="next-track" onclick="nextTrack()" class="d-inline">
-                  <i class="fa fa-step-forward fa-2x"></i>
-                </div>
-            </div>-->
-           
-              <!-- Define the section for displaying the seek slider-->
-              <!--<div class="slider_container text-white mt-3">
-                <div class="current-time d-inline me-3">00:00</div>
-                <input type="range" min="1" max="100" value="0" class="seek_slider d-inline" onchange="seekTo()">
-                <div class="total-duration d-inline ms-3">00:00</div>
-              </div>-->
             <div class="mt-3 mb-3 volume pt-2 pb-2">
                 <div class="text-white d-inline ps-2"><i class="fas fa-volume-up me-3 "></i></div>
                 <input type="range" min="0" max="1" step="0.01" value="0.5" (input)="setVolume($event)">
             </div>
             <div class="mb-3">
-                <button  (click)="play()" class="btn me-2">Play</button>
-                <button (click)="pause()" class="btn me-2">Pause</button>
-                <button (click)="stop()" class="btn">Stop</button>
+                <button  (click)="play()">Play</button>
+                <button (click)="pause()">Pause</button>
+                <button (click)="stop()">Stop</button>
 
             </div>
             <table class="table text-white">
@@ -65,7 +47,3 @@
     </div>
 </div>
 
-  
-  
-  
-  

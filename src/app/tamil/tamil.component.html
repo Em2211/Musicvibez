@@ -1,13 +1,13 @@
-<h1 class="text-center mt-3 mb-3">Telugu Movies</h1>
+<h1 class="text-center mt-3 mb-3">Tamil Movies</h1>
 <div class="container">
     <div class="row">
-        <div class="col-3 mt-3" *ngFor="let t of telugu">
+        <div class="col-3 mt-3" *ngFor="let t of tamil">
             <div class="card" style="width: 18rem;">
                 <a (click)="onClick(t.id)"><img src={{t.cover}} width=100% height=200px></a>
                 <div class="card-body">
                   <p class="card-text">{{t.id}}</p>
                 </div>
-              </div>
+            </div>
             
         </div>
     </div>

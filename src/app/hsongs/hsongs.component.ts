@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import * as moment from 'moment';
 import { SongsService } from '../songs.service';
+import * as moment from 'moment';
 
 @Component({
-  selector: 'app-tsongs',
-  templateUrl: './tsongs.component.html',
-  styleUrls: ['./tsongs.component.css']
+  selector: 'app-hsongs',
+  templateUrl: './hsongs.component.html',
+  styleUrls: ['./hsongs.component.css']
 })
-export class TsongsComponent implements OnInit {
+export class HsongsComponent implements OnInit {
   songs:any;
   audioObj=new Audio();
   audioEvents=[
@@ -24,11 +24,11 @@ export class TsongsComponent implements OnInit {
   ]
  
 
-  constructor(private ar:ActivatedRoute, private tObj:SongsService) { }
+  constructor(private ar:ActivatedRoute, private sObj:SongsService) { }
 
   ngOnInit(): void {
     let id=this.ar.snapshot.params.id;
-    this.tObj.getSongsByIdWise(id).subscribe(
+    this.sObj.getHindiSongsByIdWise(id).subscribe(
       sdata=>{
         this.songs=sdata;
         console.log(this.songs);
@@ -53,7 +53,10 @@ export class TsongsComponent implements OnInit {
 
   play(){
     console.log("clicked play")
-    this.audioObj.play();
+    if (!this.audioObj.onplaying){
+      this.audioObj.play();
+    }
+
   }
   pause(){
     this.audioObj.pause();
@@ -70,5 +73,5 @@ export class TsongsComponent implements OnInit {
 
   }
   
-}
 
+}
