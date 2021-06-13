@@ -8,21 +8,25 @@ import { Observable } from 'rxjs';
 export class SongsService {
 
   constructor(private hc:HttpClient) { }
-  getSongsByIdWise(id):Observable<any>{
+  getTeluguSongsById(id):Observable<any>{
       
     return this.hc.get<any>('http://localhost:3000/telugu/'+id)
   }
-  getHindiSongsByIdWise(id):Observable<any>{
+  getHindiSongsById(id):Observable<any>{
       
     return this.hc.get<any>('http://localhost:3000/hindi/'+id)
   }
-  getTamilSongsByIdWise(id):Observable<any>{
+  getTamilSongsById(id):Observable<any>{
       
     return this.hc.get<any>('http://localhost:3000/tamil/'+id)
   }
-  getKannadaSongsByIdWise(id):Observable<any>{
+  getKannadaSongsById(id):Observable<any>{
       
     return this.hc.get<any>('http://localhost:3000/kannada/'+id)
+  }
+  getArtistSongsById(id):Observable<any>{
+      
+    return this.hc.get<any>('http://localhost:3000/artists/'+id)
   }
   
 

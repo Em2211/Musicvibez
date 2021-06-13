@@ -10,7 +10,6 @@
                     "singer":"Sid Sriram",
                     "audio":"http://telugu-wap.in/siteuploads/files/sfd1/75/Samajavaragamana%20-%20Male-(Telugu-wap.in).mp3",
                     "time":"3:39"
-
                 },
                 {
                     "sid":2,
@@ -82,6 +81,13 @@
                     "sname":"Saranga Dariya",
                     "singer":"Mangli",
                     "audio":"http://telugu-wap.in/siteuploads/files/sfd1/272/Saranga%20Dariya_64-(Telugu-wap.in).mp3",
+                    "time":"3:56"
+                },
+                {
+                    "sid":6,
+                    "sname":"Anandam madike",
+                    "singer":"Mangli",
+                    "audio":"./assets/song3.mp3",
                     "time":"3:56"
                 }
             ]     
@@ -228,6 +234,85 @@
                     "audio":"",
                     "time":"4:05"
                 }
+            ]     
+        },
+        {
+            "id":"Majili",
+            "cover":"https://a10.gaanacdn.com/images/albums/97/2436997/crop_175x175_1553402383_2436997.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Priyathama Priyathama",
+                    "singer":"Chinmayi",
+                    "audio":"",
+                    "time":"3:39"
+
+                },
+                {
+                    "sid":2,
+                    "sname":"Yedethu Mallale",
+                    "singer":"Nikitha Gandhi",
+                    "audio":"",
+                    "time":"4:05"
+                    
+                },
+                {
+                    "sid":3,
+                    "sname":"One boy one girl" ,
+                    "singer":"L V Revanth",
+                    "audio":"",
+                    "time":"3:04"
+                },
+                {
+                    "sid":4,
+                    "sname":"Naa Gundello",
+                    "singer":"Nikitha Gandhi",
+                    "audio":"",
+                    "time":"3:48"
+                },
+                {
+                    "sid":5,
+                    "sname":"Maayya Maayya",
+                    "singer":" Anurag Kulkarni",
+                    "audio":"",
+                    "time":"3:19"
+                }
+            ]     
+        },
+
+        {
+            "id":"Venki Mama",
+            "cover":"https://a10.gaanacdn.com/images/albums/26/2901026/crop_175x175_1576154977_2901026.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Nuvvu nenu",
+                    "singer":"Anurag",
+                    "audio":"",
+                    "time":"3:39"
+
+                },
+                {
+                    "sid":2,
+                    "sname":"Coco cola pepsi ",
+                    "singer":"Ramya Behari",
+                    "audio":"",
+                    "time":"4:05"
+                    
+                },
+                {
+                    "sid":3,
+                    "sname":"Venky Mama" ,
+                    "singer":"Sri Krishna",
+                    "audio":"",
+                    "time":"3:04"
+                },
+                {
+                    "sid":4,
+                    "sname":"Yennalloka",
+                    "singer":"Prudhvi Chandra",
+                    "audio":""
+                }                
             ]     
         }
     ],
@@ -478,6 +563,88 @@
                     "time":"05:09"
                 }
             ]     
+        },
+        {
+        "id":"PK",
+            "cover":"https://a10.gaanacdn.com/images/albums/99/265399/crop_175x175_265399.jpg",
+            "Movie":[
+                {
+                    "sid":1,
+                    "sname":"Chaar Kadham",
+                    "audio":"",
+                    "singer":"Shreya Ghoshal",
+                    "time":"03:43"
+                },
+                {
+                    "sid":2,
+                    "sname":"Love is a waste of time",
+                    "audio":"",
+                    "singer":"Shreya Ghosal",
+                    "time":"04:20"
+                },
+                {
+                    "sid":3,
+                    "sname":"Thakri Chokri",
+                    "audio":"",
+                    "singer":"Swaroop Khan",
+                    "time":"04:24"
+                },
+                {
+                    "sid":4,
+                    "sname":"Nanga Punga Dost",
+                    "audio":"",
+                    "singer":"Shreya Ghosal",
+                    "time":"04:56"
+                },
+                {
+                    "sid":5,
+                    "sname":"PK dance theme",
+                    "audio":"",
+                    "singer":"Shantanu",
+                    "time":"04:09"
+                }
+            ]
+        },
+        {
+            "id":"Hamari Adhuri Kahani",
+            "cover":"https://a10.gaanacdn.com/images/albums/67/1245667/crop_175x175_1245667.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Hasi(Female Version)",
+                    "audio":"",
+                    "singer":"Shreya Ghosal",
+                    "time":"03:43"
+                },
+                {
+                    "sid":2,
+                    "sname":"Hamari Adhuri Kahani",
+                    "audio":"",
+                    "singer":"Arijit Singh",
+                    "time":"04:20"
+                },
+                {
+                    "sid":3,
+                    "sname":"Hasi (Male Version)",
+                    "audio":"",
+                    "singer":"Pritam, Arjith Singh",
+                    "time":"04:24"
+                },
+                {
+                    "sid":4,
+                    "sname":"Balam Pichkari",
+                    "audio":"",
+                    "singer":"Ami Mishra",
+                    "time":"04:56"
+                },
+                {
+                    "sid":5,
+                    "sname":"Yeh Kaisi Jagah",
+                    "audio":"",
+                    "singer":"Deepali Sathe",
+                    "time":"04:09"
+                }
+            ]     
         }
     ],
 
@@ -707,7 +874,90 @@
                     "time":"04:09"
                 }
             ]     
+        },
+        {
+            "id":"Pattas",
+            "cover":"https://a10.gaanacdn.com/images/albums/45/2930945/crop_175x175_1577536722_2930945.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Jigidi Killaadi",
+                    "audio":"",
+                    "singer":"Anirudh Ravichandra",
+                    "time":"05:03"
+                },
+                {
+                    "sid":2,
+                    "sname":"Chill Bro",
+                    "audio":"",
+                    "singer":"Dhanush",
+                    "time":"04:20"
+                },
+                {
+                    "sid":3,
+                    "sname":"Pattas Dialogue Promo",
+                    "audio":"",
+                    "singer":"Dhanush",
+                    "time":"04:24"
+                },
+                {
+                    "sid":4,
+                    "sname":"Mavane",
+                    "audio":"",
+                    "singer":"Arivu",
+                    "time":"04:56"
+                },
+                {
+                    "sid":5,
+                    "sname":"Pudhu Suriyan",
+                    "audio":"",
+                    "singer":"Anuradha Sriram",
+                    "time":"04:09"
+                }
+            ]     
+        },
+        {
+            "id":"Naan Sirithal",
+            "cover":"https://a10.gaanacdn.com/images/albums/3/3197103/crop_175x175_3197103.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Gandhi Entry",
+                    "audio":"",
+                    "singer":"Hiphop Tamizha",
+                    "time":"01:52"
+                },
+                {
+                    "sid":2,
+                    "sname":"Inner Feelings",
+                    "audio":"",
+                    "singer":"Hiphop Tamizha",
+                    "time":"01:20"
+                },
+                {
+                    "sid":3,
+                    "sname":"Ajukku Gummuku",
+                    "audio":"",
+                    "singer":"Hiphop Tamizha",
+                    "time":"02:24"
+                },
+                {
+                    "sid":4,
+                    "sname":"Naan Sirithal End Credits",
+                    "audio":"",
+                    "singer":"Hiphop Tamizha",
+                    "time":"01:56"
+                },
+                {
+                    "sid":5,
+                    "sname":"Gangster Dilli",
+                    "audio":"",
+                    "singer":"Hiphop Tamizha",
+                    "time":"01:09"
+                }
+            ]     
         }
+
     ],
 
     "kannada":[
@@ -949,7 +1199,554 @@
                     "time":"01:56"
                 }
             ]     
+        },
+        {
+            "id":"Dronal",
+            "cover":"https://a10.gaanacdn.com/images/albums/0/2962800/crop_175x175_1580131245_2962800.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Shake Ma Sainora",
+                    "audio":"",
+                    "singer":"Sanjith Hegde",
+                    "time":"03:43"
+                },
+                {
+                    "sid":2,
+                    "sname":"Sri Raamne",
+                    "audio":"",
+                    "singer":"Vijay Prakarsht",
+                    "time":"05:12"
+                },
+                {
+                    "sid":3,
+                    "sname":"Mirri Mirriyaa",
+                    "audio":"",
+                    "singer":"Chetan Naikt",
+                    "time":"02:24"
+                },
+                {
+                    "sid":4,
+                    "sname":"Gurur Brahma",
+                    "audio":"",
+                    "singer":"Priya Mali",
+                    "time":"03:26"
+                },
+                {
+                    "sid":5,
+                    "sname":"Nenu Mechukaage",
+                    "audio":"",
+                    "singer":"Priya Mali",
+                    "time":"02:09"
+                }
+            ]     
+        },
+        {
+            "id":"Kavacha ",
+            "cover":"https://a10.gaanacdn.com/images/albums/35/2275635/crop_175x175_2275635.jpg",
+            "movie":[
+                {
+                    "sid":1,
+                    "sname":"Rekaya-Duet",
+                    "audio":"",
+                    "singer":"SP Balasubrahmanyam",
+                    "time":"04:56"
+                },
+                {
+                    "sid":2,
+                    "sname":"Yaaro Nee",
+                    "audio":"",
+                    "singer":"Vyas Raj",
+                    "time":"03:33"
+                },
+                {
+                    "sid":3,
+                    "sname":"Kaneeraa",
+                    "audio":"",
+                    "singer":"Vyas Raj",
+                    "time":"04:20"
+                },
+                {
+                    "sid":4,
+                    "sname":"Neene Yendigu",
+                    "audio":"",
+                    "singer":"Nihal Tauro",
+                    "time":"04:56"
+                },
+                {
+                    "sid":5,
+                    "sname":"Rekayya-solo",
+                    "audio":"",
+                    "singer":"Sreya Jayadeep",
+                    "time":"04:49"
+                }
+            ]     
         }
+    ],
+    "artists":[
+            {
+                "id":"Ed Sheeran",
+                "cover":"https://static.billboard.com/files/media/ed-sheeran-performance-canadian-tire-centre-2015-billboard-650-compressed.jpg",
+                "songs":[
+                    {
+                        "sid":1,
+                        "sname":"Perfect",
+                        "audio":"https://ia801504.us.archive.org/3/items/EdSheeranPerfectOfficialMusicVideoListenVid.com/Ed_Sheeran_-_Perfect_Official_Music_Video%5BListenVid.com%5D.mp3",
+                        "time":"4:23"
+    
+                    },
+                    {
+                        "sid":2,
+                        "sname":"Thinking out loud",
+                        "audio":"",
+                        "time":"4:11"
+                        
+                    },
+                    {
+                        "sid":3,
+                        "sname":"I Don’t Care",
+                        "audio":"",
+                        "time":"3:39"
+                        
+                    },
+                    {
+                        "sid":4,
+                        "sname":"Beautiful People",
+                        "audio":"",
+                        "time":"3:17"
+                        
+                    },
+                    {
+                        "sid":5,
+                        "sname":"Shape of you",
+                        "audio":"",
+                        "time":"3:53"
+                        
+                    },
+                    {
+                        "sid":6,
+                        "sname":"End game",
+                        "audio":"",
+                        "time":"4:04"
+                        
+                    },
+                    {
+                        "sid":7,
+                        "sname":"Photograph",
+                        "audio":"",
+                        "time":"4:18"
+                        
+                    },
+                    {
+                        "sid":8,
+                        "sname":"Happier",
+                        "audio":"",
+                        "time":"3:27"
+                        
+                    },
+                    {
+                        "sid":9,
+                        "sname":"South of the border",
+                        "audio":"",
+                        "time":"3:24"
+                        
+                    },
+                    {
+                        "sid":10,
+                        "sname":"Dive",
+                        "audio":"",
+                        "time":"3:58"
+                        
+                    }
+    
+                    
+                ]     
+            },
+            {
+                "id":"BTS",
+                "cover":"https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/12/10/5bc61682-3523-11eb-8d89-a7d6b31c4b8a_image_hires_164759.jpeg",
+                "songs":[
+                    {
+                        "sid":1,
+                        "sname":"Butter",
+                        "audio":"",
+                        "time":"2:44"
+    
+                    },
+                    {
+                        "sid":2,
+                        "sname":"Dynamite",
+                        "audio":"",
+                        "time":"3:19"
+                        
+                    },
+                    {
+                        "sid":3,
+                        "sname":"Savage love",
+                        "audio":"",
+                        "time":"3:04"
+                        
+                    },
+                    {
+                        "sid":4,
+                        "sname":"Boy with luv",
+                        "audio":"",
+                        "time":"3:49"
+                        
+                    },
+                    {
+                        "sid":5,
+                        "sname":"Blood Sweat & tears",
+                        "audio":"",
+                        "time":"3:37"
+                        
+                    },
+                    {
+                        "sid":6,
+                        "sname":"ON",
+                        "audio":"",
+                        "time":"4:06"
+                        
+                    },
+                    {
+                        "sid":7,
+                        "sname":"Mic Drop",
+                        "audio":"",
+                        "time":"5:07"
+                        
+                    },
+                    {
+                        "sid":8,
+                        "sname":"Life goes on",
+                        "audio":"",
+                        "time":"3:27"
+                        
+                    },
+                    {
+                        "sid":9,
+                        "sname":"I need u",
+                        "audio":"",
+                        "time":"3:30"
+                        
+                    },
+                    {
+                        "sid":10,
+                        "sname":"Go Go",
+                        "audio":"",
+                        "time":"3:55"
+                        
+                    }
+    
+                    
+                ]     
+            },
+            {
+                "id":"Arijit Singh",
+                "cover":"https://i1.sndcdn.com/avatars-PvmAG48tBSapqaTx-B7eoAg-t500x500.jpg",
+                "songs":[
+                    {
+                        "sid":1,
+                        "sname":"Tuje Kitna Chahne Lage",
+                        "audio":"",
+                        "time":"4:45"
+    
+                    },
+                    {
+                        "sid":2,
+                        "sname":"Agar Tum Saath ho",
+                        "audio":"",
+                        "time":"5:41"
+                        
+                    },
+                    {
+                        "sid":3,
+                        "sname":"Ve Maahi",
+                        "audio":"",
+                        "time":"3:44"
+                        
+                    },
+                    {
+                        "sid":4,
+                        "sname":"Khairiyat",
+                        "audio":"",
+                        "time":"4:40"
+                        
+                    },
+                    {
+                        "sid":5,
+                        "sname":"Tum Hi Ho",
+                        "audio":"",
+                        "time":"4:21"
+                        
+                    },
+                    {
+                        "sid":6,
+                        "sname":"Bhekhayali",
+                        "audio":"",
+                        "time":"6:10"
+                        
+                    },
+                    {
+                        "sid":7,
+                        "sname":"Kalank-Title Track",
+                        "audio":"",
+                        "time":"5:11"
+                        
+                    },
+                    {
+                        "sid":8,
+                        "sname":"Tera Yaar Hoon Main",
+                        "audio":"",
+                        "time":"4:26"
+                        
+                    },
+                    {
+                        "sid":9,
+                        "sname":"Raabta",
+                        "audio":"",
+                        "time":"4:04"
+                        
+                    },
+                    {
+                        "sid":10,
+                        "sname":"Mast Magan",
+                        "audio":"",
+                        "time":"4:40"
+                        
+                    }
+                    
+                ]     
+            },
+            {
+                "id":"A R Rahman",
+                "cover":"https://images.successstory.com/adminimg/image_uploads/content_images/ar-rahman-live_1456389716.jpg",
+                "songs":[
+                    {
+                        "sid":1,
+                        "sname":"Dil Bechara",
+                        "audio":"",
+                        "time":"2:43"
+    
+                    },
+                    {
+                        "sid":2,
+                        "sname":"Urvashi Urvashi",
+                        "audio":"",
+                        "time":"5:41"
+                        
+                    },
+                    {
+                        "sid":3,
+                        "sname":"Kaadhal rojave",
+                        "audio":"",
+                        "time":"5:12"
+                        
+                    },
+                    {
+                        "sid":4,
+                        "sname":"Ennodu nee Irundhaal ",
+                        "audio":"",
+                        "time":"5:54"
+                        
+                    },
+                    {
+                        "sid":5,
+                        "sname":"The Oracle",
+                        "audio":"",
+                        "time":"3:01"
+                        
+                    },
+                    {
+                        "sid":6,
+                        "sname":"Mukkala Mukkabla",
+                        "audio":"",
+                        "time":"5:23"
+                        
+                    },
+                    {
+                        "sid":7,
+                        "sname":"Vennilavae",
+                        "audio":"",
+                        "time":"5:52"
+                        
+                    },
+                    {
+                        "sid":8,
+                        "sname":"Anjali Anjali",
+                        "audio":"",
+                        "time":"8:04"
+                        
+                    },
+                    {
+                        "sid":9,
+                        "sname":"Mental Manadhil",
+                        "audio":"",
+                        "time":"3:30"
+                        
+                    },
+                    {
+                        "sid":10,
+                        "sname":"Maa Tujhe Salaam",
+                        "audio":"",
+                        "time":"6:15"
+                        
+                    }
+                ]     
+            },
+            {
+                "id":"Tailor Swift",
+                "cover":"https://media.glamour.com/photos/5d37931a43302600082ef61b/2:1/w_5052,h_2526,c_limit/taylor-swift.jpg",
+                "songs":[
+                    {
+                        "sid":1,
+                        "sname":"Willow",
+                        "audio":"",
+                        "time":"3:34"
+    
+                    },
+                    {
+                        "sid":2,
+                        "sname":"Love Story",
+                        "audio":"",
+                        "time":"3:57"
+                        
+                    },
+                    {
+                        "sid":3,
+                        "sname":"Blank Space",
+                        "audio":"",
+                        "time":"3:52"
+                        
+                    },
+                    {
+                        "sid":4,
+                        "sname":"ME!",
+                        "audio":"",
+                        "time":"3:13"
+                        
+                    },
+                    {
+                        "sid":5,
+                        "sname":"End Game",
+                        "audio":"",
+                        "time":"4:04"
+                        
+                    },
+                    {
+                        "sid":6,
+                        "sname":"Wildest Dreams",
+                        "audio":"",
+                        "time":"3:40"
+                        
+                    },
+                    {
+                        "sid":7,
+                        "sname":"Style",
+                        "audio":"",
+                        "time":"3:51"
+                        
+                    },
+                    {
+                        "sid":8,
+                        "sname":"Bad Blood",
+                        "audio":"",
+                        "time":"3:32"
+                        
+                    },
+                    {
+                        "sid":9,
+                        "sname":"Lover",
+                        "audio":"",
+                        "time":"3:43"
+                        
+                    },
+                    {
+                        "sid":10,
+                        "sname":"August",
+                        "audio":"",
+                        "time":"4:21"
+                        
+                    }
+    
+                    
+                ]     
+            },
+            {
+                "id":"Sid Sriram",
+                "cover":"https://pbs.twimg.com/media/DaLvobZW4AAabDv.jpg",
+                "songs":[
+                    {
+                        "sid":1,
+                        "sname":"Samajavaragamana",
+                        "audio":"",
+                        "time":"3:40"
+    
+                    },
+                    {
+                        "sid":2,
+                        "sname":"Oke Oka Lokam",
+                        "audio":"",
+                        "time":"3:29"
+                        
+                    },
+                    {
+                        "sid":3,
+                        "sname":"Maguva Maguva",
+                        "audio":"",
+                        "time":"4:11"
+                        
+                    },
+                    {
+                        "sid":4,
+                        "sname":"Inkem Inkem Inkem Kavale",
+                        "audio":"",
+                        "time":"4:26"
+                        
+                    },
+                    {
+                        "sid":5,
+                        "sname":"Undiporadhey",
+                        "audio":"",
+                        "time":"2:54"
+                        
+                    },
+                    {
+                        "sid":6,
+                        "sname":"Vellipomake",
+                        "audio":"",
+                        "time":"4:21"
+                        
+                    },
+                    {
+                        "sid":7,
+                        "sname":"Neeli Neeli Aakasam",
+                        "audio":"",
+                        "time":"4:43"
+                        
+                    },
+                    {
+                        "sid":8,
+                        "sname":"Emo Emo",
+                        "audio":"",
+                        "time":"4:03"
+                        
+                    },
+                    {
+                        "sid":9,
+                        "sname":"Kadalalle",
+                        "audio":"",
+                        "time":"4:40"
+                        
+                    },
+                    {
+                        "sid":10,
+                        "sname":"Arere Manasa",
+                        "audio":"",
+                        "time":"5:01"
+                        
+                    } 
+                ]     
+            }
     ]
-
+    
 }

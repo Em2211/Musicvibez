@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { AngMusicPlayerModule } from  'ang-music-player';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { TamilComponent } from './tamil/tamil.component';
 import { TamilsongsComponent } from './tamilsongs/tamilsongs.component';
 import { KannadaComponent } from './kannada/kannada.component';
 import { KannadasongsComponent } from './kannadasongs/kannadasongs.component';
+import { ArtistsongsComponent } from './artistsongs/artistsongs.component';
 
 @NgModule({
   declarations: [
@@ -28,12 +30,14 @@ import { KannadasongsComponent } from './kannadasongs/kannadasongs.component';
     TamilComponent,
     TamilsongsComponent,
     KannadaComponent,
-    KannadasongsComponent
+    KannadasongsComponent,
+    ArtistsongsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    AngMusicPlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

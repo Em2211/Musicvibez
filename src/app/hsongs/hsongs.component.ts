@@ -28,10 +28,9 @@ export class HsongsComponent implements OnInit {
 
   ngOnInit(): void {
     let id=this.ar.snapshot.params.id;
-    this.sObj.getHindiSongsByIdWise(id).subscribe(
+    this.sObj.getHindiSongsById(id).subscribe(
       sdata=>{
         this.songs=sdata;
-        console.log(this.songs);
       },
       err=>{
         console.log('error in loading data',err)
@@ -42,17 +41,14 @@ export class HsongsComponent implements OnInit {
 
   setVolume(ev){
     this.audioObj.volume = ev.target.value
-    console.log(ev.target.value);
   }
   openSong(audio){
     this.audioObj.src=audio;
     this.audioObj.load();
     this.audioObj.play();
-    console.log("button clicked")
   }
 
   play(){
-    console.log("clicked play")
     if (!this.audioObj.onplaying){
       this.audioObj.play();
     }

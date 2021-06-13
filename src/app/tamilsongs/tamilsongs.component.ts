@@ -29,7 +29,7 @@ export class TamilsongsComponent implements OnInit {
 
   ngOnInit(): void {
     let id=this.ar.snapshot.params.id;
-    this.sObj.getTamilSongsByIdWise(id).subscribe(
+    this.sObj.getTamilSongsById(id).subscribe(
       sdata=>{
         this.songs=sdata;
         console.log(this.songs);

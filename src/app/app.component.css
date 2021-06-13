@@ -2,10 +2,12 @@
     background-color: rgb(5, 11, 32);
 }
 .brand{
-    font-size: 30px;
     font-weight: bold;
     font-family: 'Lobster Two', cursive;
     text-decoration: none;
+}
+h2{
+    font-size: 25px;
 }
 .nav-link{
     font-size: 18px;

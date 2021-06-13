@@ -15,7 +15,6 @@ export class TamilComponent implements OnInit {
     this.tObj.getTamilSongs().subscribe(
       tdata=>{
         this.tamil=tdata;
-        console.log(this.tamil);
       },
       err=>{
         console.log('error in loading data',err)

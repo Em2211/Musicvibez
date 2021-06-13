@@ -5,22 +5,26 @@ img{
     border-radius: 20px;
 }
 .btn{
-    background-color: rgb(4, 154, 165);
+    background-color: rgb(4, 100, 107);
     color:white;
+}
+.btn1{
+    background-color:rgb(22, 100, 105);
+    color:white;
+    box-shadow:3px 3px 3px rgb(8, 8, 8);
+}
 
-}
-.sec{
-    margin-top: 170px;
-}
 .volume{
-    width:30%;
     border-radius: 5px;
     background-color: rgb(9, 54, 59);
     box-shadow: 3px 3px 2px black;
 }
 .btn:hover{
-    background-color: rgb(1, 11, 12);
+    background-color: rgb(4, 16, 17);
 }
 .btn:active{
-    background-color: black;
+    background-color: rgb(10, 47, 49);
+}
+input{
+    width:80%;
 }

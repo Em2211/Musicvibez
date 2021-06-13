@@ -14,7 +14,8 @@ h1{
 }
 .card{
     border-radius: 20px;
-    background-color: rgb(118, 172, 175);
+    background-color: rgb(229, 247, 244);
+    box-shadow:5px 3px 2px black;
 }
 p{
     font-weight: bold;

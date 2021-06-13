@@ -29,10 +29,9 @@ export class KannadasongsComponent implements OnInit {
 
   ngOnInit(): void {
     let id=this.ar.snapshot.params.id;
-    this.sObj.getKannadaSongsByIdWise(id).subscribe(
+    this.sObj.getKannadaSongsById(id).subscribe(
       sdata=>{
         this.songs=sdata;
-        console.log(this.songs);
       },
       err=>{
         console.log('error in loading data',err)

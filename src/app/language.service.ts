@@ -9,11 +9,9 @@ export class LanguageService {
 
   constructor(private hc:HttpClient) { }
   getTeluguSongs():Observable<any>{
-
     return this.hc.get<any>('http://localhost:3000/telugu')
   }
   getHindiSongs():Observable<any>{
-
     return this.hc.get<any>('http://localhost:3000/hindi')
   }
   getTamilSongs():Observable<any>{
@@ -22,6 +20,10 @@ export class LanguageService {
   getKannadaSongs():Observable<any>{
     return this.hc.get<any>('http://localhost:3000/kannada')
   }
+  getArtists():Observable<any>{
+    return this.hc.get<any>('http://localhost:3000/artists')
+  }
+
 
 
 }

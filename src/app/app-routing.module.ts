@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AlbumsComponent } from './albums/albums.component';
+import { ArtistsongsComponent } from './artistsongs/artistsongs.component';
 import { FavouritesComponent } from './favourites/favourites.component';
 import { HindiComponent } from './hindi/hindi.component';
 import { HomeComponent } from './home/home.component';
@@ -24,6 +25,8 @@ const routes: Routes = [
   {path:'home/tamil/:id',component:TamilsongsComponent},
   {path:'home/kannada',component:KannadaComponent},
   {path:'home/kannada/:id',component:KannadasongsComponent},
+  {path:'albums/artists/:id',component:ArtistsongsComponent},
+
   {path:'',component:HomeComponent}
 
 
