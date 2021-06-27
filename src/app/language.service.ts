@@ -8,18 +8,13 @@ import { Observable } from 'rxjs';
 export class LanguageService {
 
   constructor(private hc:HttpClient) { }
-  getTeluguSongs():Observable<any>{
-    return this.hc.get<any>('http://localhost:3000/telugu')
+  getLanguageMovies(id):Observable<any>{
+    return this.hc.get<any>('http://localhost:3000/'+id)
   }
-  getHindiSongs():Observable<any>{
-    return this.hc.get<any>('http://localhost:3000/hindi')
+  getSongsById(lan,id):Observable<any>{
+    return this.hc.get<any>(`http://localhost:3000/${lan}/`+id)
   }
-  getTamilSongs():Observable<any>{
-    return this.hc.get<any>('http://localhost:3000/tamil')
-  }
-  getKannadaSongs():Observable<any>{
-    return this.hc.get<any>('http://localhost:3000/kannada')
-  }
+  
   getArtists():Observable<any>{
     return this.hc.get<any>('http://localhost:3000/artists')
   }

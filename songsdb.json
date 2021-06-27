@@ -1,1287 +1,1316 @@
 {
-    "telugu":[
-        {
-            "id":"Ala Vaikuntapuramlo",
-            "cover":"https://www.sify.com/uploads/ala-vaikunthapurramloo-review-ubnjOKdbfabfa.jpg",
-            "movie":[
+    "Telugu":[
                 {
-                    "sid":1,
-                    "sname":"Samajavaragamana",
-                    "singer":"Sid Sriram",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/75/Samajavaragamana%20-%20Male-(Telugu-wap.in).mp3",
-                    "time":"3:39"
+                    "id":"Ala Vaikuntapuramlo",
+                    "cover":"https://www.sify.com/uploads/ala-vaikunthapurramloo-review-ubnjOKdbfabfa.jpg",
+                    "language":"Telugu",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Samajavaragamana",
+                            "singer":"Sid Sriram",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/75/Samajavaragamana%20-%20Male-(Telugu-wap.in).mp3",
+                            "time":"3:39"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Ramulo Ramula",
+                            "singer":"Anurag Kulkarni, Mangli",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/74/Ramuloo%20Ramulaa-(Telugu-wap.in).mp3",
+                            "time":"4:05"
+                            
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Sitharala Sirapadu" ,
+                            "singer":"Saketh,Sooranna",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/69/Sittharala%20Sirapadu-(Telugu-wap.in).mp3",
+                            "time":"3:04"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"OMG Daddy",
+                            "singer":"Roll Rida, Rahul Sipligunj, Blazee, Rahul Nambiar, Rabbit Mac",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/73/OMG%20Daddy-(Telugu-wap.in).mp3",
+                            "time":"3:48"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Buttabomma",
+                            "singer":" Armaan Malik",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/72/Butta%20Bomma-(Telugu-wap.in).mp3",
+                            "time":"3:19"
+                        }
+                    ]     
                 },
                 {
-                    "sid":2,
-                    "sname":"Ramulo Ramula",
-                    "singer":"Anurag Kulkarni, Mangli",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/74/Ramuloo%20Ramulaa-(Telugu-wap.in).mp3",
-                    "time":"4:05"
-                    
+                    "id":"Love Story",
+                    "cover":"https://static.toiimg.com/photo.cms?msid=80196210&resizemode=4",
+                    "language":"Telugu",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Evo Evo Kalale",
+                            "singer":" Jonita Gandhi, Nakul Abhyankar",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/298/Evo%20Evo%20Kalale%20(Love%20Story)_64-(Telugu-wap.in).mp3",
+                            "time":"4:30"
+        
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Ayy Pilla",
+                            "singer":" Haricharan",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/167/Ay%20Pilla%20(Love%20Story)_64-(Telugu-wap.in).mp3",
+                            "time":"4:14"
+        
+                        },
+                        {
+                            "sid":3,
+                            "sname":"E Manchullo chekkillalo",
+                            "singer":"Saketh,Sooranna",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/253/Ee%20Manchullo%20Chekkillalo%20(15%2018%2024%20Love%20Story)_64-(Telugu-wap.in).mp3",
+                            "time":"4:33"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Nee Chitram Choosi",
+                            "singer":"Anurag Kulkarni",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/267/Nee%20Chitram%20Choosi_64-(Telugu-wap.in).mp3",
+                            "time":"3:45"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Saranga Dariya",
+                            "singer":"Mangli",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/272/Saranga%20Dariya_64-(Telugu-wap.in).mp3",
+                            "time":"3:56"
+                        },
+                        {
+                            "sid":6,
+                            "sname":"Anandam madike",
+                            "singer":"Mangli",
+                            "audio":"./assets/song3.mp3",
+                            "time":"3:56"
+                        }
+                    ]     
                 },
                 {
-                    "sid":3,
-                    "sname":"Sitharala Sirapadu" ,
-                    "singer":"Saketh,Sooranna",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/69/Sittharala%20Sirapadu-(Telugu-wap.in).mp3",
-                    "time":"3:04"
+                    "id":"Vakeel Saab",
+                    "cover":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/03/02/896366-pawankalyan-vakeelsaab.jpg",
+                    "language":"Telugu",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Kadhulu Kadhulu",
+                            "singer":"Sri krishna, Hemachandra Vedala",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/317/Kadhulu%20Kadhulu%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
+                            "time":"2:56"
+        
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Maguva Maguva",
+                            "singer":" Sid Sriram",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/316/Maguva%20Maguva%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
+                            "time":"4:08"
+        
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Kanti Papa Kanti Papa",
+                            "singer":"Saketh,Sooranna",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/294/Kanti%20Papa%20Kanti%20Papa%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
+                            "time":"4:32"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Sathyameva Jayathe",
+                            "singer":"Shankar Mahadevan",
+                            "audio":"",
+                            "time":"4:32"
+                        }
+                    ]     
                 },
                 {
-                    "sid":4,
-                    "sname":"OMG Daddy",
-                    "singer":"Roll Rida, Rahul Sipligunj, Blazee, Rahul Nambiar, Rabbit Mac",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/73/OMG%20Daddy-(Telugu-wap.in).mp3",
-                    "time":"3:48"
+                    "id":"RangDe",
+                    "cover":"https://static.toiimg.com/photo/80073181.jpeg",
+                    "language":"Telugu",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Oorantha",
+                            "singer":"Mangli",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/300/Oorantha%20(Rang%20De)-(Telugu-wap.in).mp3",
+                            "time":"1:20"
+        
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Rangule",
+                            "singer":"Shwetha Mohan",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/296/Rangule%20(Rang%20De)_64-(Telugu-wap.in).mp3",
+                            "time":"4:24"
+        
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Chusi Nerchukoku",
+                            "singer":"David Samon",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/287/Choosi%20Nerchukoku%20(Rang%20De)_64-(Telugu-wap.in).mp3",
+                            "time":"3:11"
+                        }
+                    ]     
                 },
                 {
-                    "sid":5,
-                    "sname":"Buttabomma",
-                    "singer":" Armaan Malik",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/72/Butta%20Bomma-(Telugu-wap.in).mp3",
-                    "time":"3:19"
+                    "id":"Jaathi Rathnalu",
+                    "cover":"https://assets.thehansindia.com/h-upload/2021/03/27/1064482-jati-ratnalu.webp",
+                    "language":"Telugu",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Almost Pan India",
+                            "singer":"Purnima",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/297/Almost%20Pan%20India%20Song%20(Jathi%20Ratnalu)-(Telugu-wap.in).mp3",
+                            "time":"1:20"
+        
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Chanchalguda Jail lo",
+                            "singer":"Yogi Sekar",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/282/Chanchalguda%20Jail%20Lo%20(Jathi%20Ratnalu)_64-(Telugu-wap.in).mp3",
+                            "time":"2:42"
+        
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Mana Jathi Rathnalu",
+                            "singer":" Rahul Sipligunj",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/256/Mana%20Jathi%20Ratnalu_64-(Telugu-wap.in).mp3",
+                            "time":"3:48"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Chitti",
+                            "singer":" Ram Miriyala",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/168/Chitti%20(Jathi%20Ratnalu)_64-(Telugu-wap.in).mp3",
+                            "time":"3:11"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Sashi",
+                    "cover":"https://mcmscache.epapr.in/post_images/website_197/post_14105329/thumb.jpg",
+                    "language":"Telugu",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Prema idhi prema",
+                            "singer":" Ishaq Vali, Bolt",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/318/Prema%20idhi%20Prema%202021_64-(Telugu-wap.in).mp3",
+                            "time":"3:58"
+        
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Okey Oka Lokam",
+                            "singer":"Sid Sriram",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/276/Okey%20Oka-(Telugu-wap.in).mp3",
+                            "time":"3:29"
+        
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Dheemthana",
+                            "singer":"Haricharan",
+                            "audio":"http://telugu-wap.in/siteuploads/files/sfd1/275/Dheemthana_64-(Telugu-wap.in).mp3",
+                            "time":"4:28"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Vidhine Vidiche",
+                            "singer":"MM Keeravani",
+                            "audio":"",
+                            "time":"4:33"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Rane Radhe",
+                            "singer":"Aditi Bhavaraju",
+                            "audio":"",
+                            "time":"4:05"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Majili",
+                    "cover":"https://a10.gaanacdn.com/images/albums/97/2436997/crop_175x175_1553402383_2436997.jpg",
+                    "language":"Telugu",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Priyathama Priyathama",
+                            "singer":"Chinmayi",
+                            "audio":"",
+                            "time":"3:39"
+        
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Yedethu Mallale",
+                            "singer":"Nikitha Gandhi",
+                            "audio":"",
+                            "time":"4:05"
+                            
+                        },
+                        {
+                            "sid":3,
+                            "sname":"One boy one girl" ,
+                            "singer":"L V Revanth",
+                            "audio":"",
+                            "time":"3:04"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Naa Gundello",
+                            "singer":"Nikitha Gandhi",
+                            "audio":"",
+                            "time":"3:48"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Maayya Maayya",
+                            "singer":" Anurag Kulkarni",
+                            "audio":"",
+                            "time":"3:19"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Venki Mama",
+                    "cover":"https://a10.gaanacdn.com/images/albums/26/2901026/crop_175x175_1576154977_2901026.jpg",
+                    "language":"Telugu",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Nuvvu nenu",
+                            "singer":"Anurag",
+                            "audio":"",
+                            "time":"3:39"
+        
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Coco cola pepsi ",
+                            "singer":"Ramya Behari",
+                            "audio":"",
+                            "time":"4:05"
+                            
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Venky Mama" ,
+                            "singer":"Sri Krishna",
+                            "audio":"",
+                            "time":"3:04"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Yennalloka",
+                            "singer":"Prudhvi Chandra",
+                            "audio":""
+                        }                
+                    ]     
                 }
-            ]     
-        },
-        {
-            "id":"Love Story",
-            "cover":"https://static.toiimg.com/photo.cms?msid=80196210&resizemode=4",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Evo Evo Kalale",
-                    "singer":" Jonita Gandhi, Nakul Abhyankar",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/298/Evo%20Evo%20Kalale%20(Love%20Story)_64-(Telugu-wap.in).mp3",
-                    "time":"4:30"
-
-                },
-                {
-                    "sid":2,
-                    "sname":"Ayy Pilla",
-                    "singer":" Haricharan",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/167/Ay%20Pilla%20(Love%20Story)_64-(Telugu-wap.in).mp3",
-                    "time":"4:14"
-
-                },
-                {
-                    "sid":3,
-                    "sname":"E Manchullo chekkillalo",
-                    "singer":"Saketh,Sooranna",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/253/Ee%20Manchullo%20Chekkillalo%20(15%2018%2024%20Love%20Story)_64-(Telugu-wap.in).mp3",
-                    "time":"4:33"
-                },
-                {
-                    "sid":4,
-                    "sname":"Nee Chitram Choosi",
-                    "singer":"Anurag Kulkarni",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/267/Nee%20Chitram%20Choosi_64-(Telugu-wap.in).mp3",
-                    "time":"3:45"
-                },
-                {
-                    "sid":5,
-                    "sname":"Saranga Dariya",
-                    "singer":"Mangli",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/272/Saranga%20Dariya_64-(Telugu-wap.in).mp3",
-                    "time":"3:56"
-                },
-                {
-                    "sid":6,
-                    "sname":"Anandam madike",
-                    "singer":"Mangli",
-                    "audio":"./assets/song3.mp3",
-                    "time":"3:56"
-                }
-            ]     
-        },
-        {
-            "id":"Vakeel Saab",
-            "cover":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/03/02/896366-pawankalyan-vakeelsaab.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Kadhulu Kadhulu",
-                    "singer":"Sri krishna, Hemachandra Vedala",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/317/Kadhulu%20Kadhulu%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
-                    "time":"2:56"
-
-                },
-                {
-                    "sid":2,
-                    "sname":"Maguva Maguva",
-                    "singer":" Sid Sriram",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/316/Maguva%20Maguva%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
-                    "time":"4:08"
-
-                },
-                {
-                    "sid":3,
-                    "sname":"Kanti Papa Kanti Papa",
-                    "singer":"Saketh,Sooranna",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/294/Kanti%20Papa%20Kanti%20Papa%20(Vakeel%20Saab)_64-(Telugu-wap.in).mp3",
-                    "time":"4:32"
-                },
-                {
-                    "sid":4,
-                    "sname":"Sathyameva Jayathe",
-                    "singer":"Shankar Mahadevan",
-                    "audio":"",
-                    "time":"4:32"
-                }
-            ]     
-        },
-        {
-            "id":"RangDe",
-            "cover":"https://static.toiimg.com/photo/80073181.jpeg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Oorantha",
-                    "singer":"Mangli",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/300/Oorantha%20(Rang%20De)-(Telugu-wap.in).mp3",
-                    "time":"1:20"
-
-                },
-                {
-                    "sid":2,
-                    "sname":"Rangule",
-                    "singer":"Shwetha Mohan",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/296/Rangule%20(Rang%20De)_64-(Telugu-wap.in).mp3",
-                    "time":"4:24"
-
-                },
-                {
-                    "sid":3,
-                    "sname":"Chusi Nerchukoku",
-                    "singer":"David Samon",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/287/Choosi%20Nerchukoku%20(Rang%20De)_64-(Telugu-wap.in).mp3",
-                    "time":"3:11"
-                }
-            ]     
-        },
-        {
-            "id":"Jaathi Rathnalu",
-            "cover":"https://assets.thehansindia.com/h-upload/2021/03/27/1064482-jati-ratnalu.webp",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Almost Pan India",
-                    "singer":"Purnima",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/297/Almost%20Pan%20India%20Song%20(Jathi%20Ratnalu)-(Telugu-wap.in).mp3",
-                    "time":"1:20"
-
-                },
-                {
-                    "sid":2,
-                    "sname":"Chanchalguda Jail lo",
-                    "singer":"Yogi Sekar",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/282/Chanchalguda%20Jail%20Lo%20(Jathi%20Ratnalu)_64-(Telugu-wap.in).mp3",
-                    "time":"2:42"
-
-                },
-                {
-                    "sid":3,
-                    "sname":"Mana Jathi Rathnalu",
-                    "singer":" Rahul Sipligunj",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/256/Mana%20Jathi%20Ratnalu_64-(Telugu-wap.in).mp3",
-                    "time":"3:48"
-                },
-                {
-                    "sid":4,
-                    "sname":"Chitti",
-                    "singer":" Ram Miriyala",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/168/Chitti%20(Jathi%20Ratnalu)_64-(Telugu-wap.in).mp3",
-                    "time":"3:11"
-                }
-            ]     
-        },
-        {
-            "id":"Sashi",
-            "cover":"https://mcmscache.epapr.in/post_images/website_197/post_14105329/thumb.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Prema idhi prema",
-                    "singer":" Ishaq Vali, Bolt",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/318/Prema%20idhi%20Prema%202021_64-(Telugu-wap.in).mp3",
-                    "time":"3:58"
-
-                },
-                {
-                    "sid":2,
-                    "sname":"Okey Oka Lokam",
-                    "singer":"Sid Sriram",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/276/Okey%20Oka-(Telugu-wap.in).mp3",
-                    "time":"3:29"
-
-                },
-                {
-                    "sid":3,
-                    "sname":"Dheemthana",
-                    "singer":"Haricharan",
-                    "audio":"http://telugu-wap.in/siteuploads/files/sfd1/275/Dheemthana_64-(Telugu-wap.in).mp3",
-                    "time":"4:28"
-                },
-                {
-                    "sid":4,
-                    "sname":"Vidhine Vidiche",
-                    "singer":"MM Keeravani",
-                    "audio":"",
-                    "time":"4:33"
-                },
-                {
-                    "sid":5,
-                    "sname":"Rane Radhe",
-                    "singer":"Aditi Bhavaraju",
-                    "audio":"",
-                    "time":"4:05"
-                }
-            ]     
-        },
-        {
-            "id":"Majili",
-            "cover":"https://a10.gaanacdn.com/images/albums/97/2436997/crop_175x175_1553402383_2436997.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Priyathama Priyathama",
-                    "singer":"Chinmayi",
-                    "audio":"",
-                    "time":"3:39"
-
-                },
-                {
-                    "sid":2,
-                    "sname":"Yedethu Mallale",
-                    "singer":"Nikitha Gandhi",
-                    "audio":"",
-                    "time":"4:05"
-                    
-                },
-                {
-                    "sid":3,
-                    "sname":"One boy one girl" ,
-                    "singer":"L V Revanth",
-                    "audio":"",
-                    "time":"3:04"
-                },
-                {
-                    "sid":4,
-                    "sname":"Naa Gundello",
-                    "singer":"Nikitha Gandhi",
-                    "audio":"",
-                    "time":"3:48"
-                },
-                {
-                    "sid":5,
-                    "sname":"Maayya Maayya",
-                    "singer":" Anurag Kulkarni",
-                    "audio":"",
-                    "time":"3:19"
-                }
-            ]     
-        },
-
-        {
-            "id":"Venki Mama",
-            "cover":"https://a10.gaanacdn.com/images/albums/26/2901026/crop_175x175_1576154977_2901026.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Nuvvu nenu",
-                    "singer":"Anurag",
-                    "audio":"",
-                    "time":"3:39"
-
-                },
-                {
-                    "sid":2,
-                    "sname":"Coco cola pepsi ",
-                    "singer":"Ramya Behari",
-                    "audio":"",
-                    "time":"4:05"
-                    
-                },
-                {
-                    "sid":3,
-                    "sname":"Venky Mama" ,
-                    "singer":"Sri Krishna",
-                    "audio":"",
-                    "time":"3:04"
-                },
-                {
-                    "sid":4,
-                    "sname":"Yennalloka",
-                    "singer":"Prudhvi Chandra",
-                    "audio":""
-                }                
-            ]     
-        }
     ],
-
-    "hindi":[
-        {
-            "id":"Yeh Jawaani Hai Deewani",
-            "cover":"https://doontoday.com/wp-content/uploads/2013/07/ye-jawani-hai-deewani-banner.jpg",
-            "movie":[
+    "Hindi":[
                 {
-                    "sid":1,
-                    "sname":"Kabira",
-                    "audio":"",
-                    "singer":"Pritam, Tochi Raina",
-                    "time":"03:43"
+                    "id":"Yeh Jawaani Hai Deewani",
+                    "cover":"https://doontoday.com/wp-content/uploads/2013/07/ye-jawani-hai-deewani-banner.jpg",
+                    "language":"Hindi",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Kabira",
+                            "audio":"",
+                            "singer":"Pritam, Tochi Raina",
+                            "time":"03:43"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Badtameez Dil",
+                            "audio":"",
+                            "singer":"Pritam, Benny Dayal",
+                            "time":"04:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Dilliwaali Girlfriend",
+                            "audio":"",
+                            "singer":"Pritam, Arjith Singh",
+                            "time":"04:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Balam Pichkari",
+                            "audio":"",
+                            "singer":"Pritam, Vishal Dadlani",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Subhanallah",
+                            "audio":"",
+                            "singer":"Sreeram, Shilpa rao",
+                            "time":"04:09"
+                        }
+                    ]     
                 },
                 {
-                    "sid":2,
-                    "sname":"Badtameez Dil",
-                    "audio":"",
-                    "singer":"Pritam, Benny Dayal",
-                    "time":"04:20"
+                    "id":"Ae Dil Hai Mushkil",
+                    "cover":"https://a10.gaanacdn.com/images/albums/94/1745894/crop_175x175_1745894.jpg?version=6",
+                    "language":"Hindi",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Ae Dil Hai Mushkil",
+                            "audio":"",
+                            "singer":"pritam, Ajay Singha",
+                            "time":"04:30"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Channa Mereya",
+                            "audio":"",
+                            "singer":"pritam, Ajay Singha",
+                            "time":"04:49"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Bulleya",
+                            "audio":"",
+                            "singer":"pritam, Ajay Singha",
+                            "time":"05:49"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Alizeh",
+                            "audio":"",
+                            "singer":"pritam, Ajay Singha",
+                            "time":"04:43"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"The Breakup Song",
+                            "audio":"",
+                            "singer":"pritam, Ajay Singha",
+                            "time":"04:02"
+                        }
+                    ]     
                 },
                 {
-                    "sid":3,
-                    "sname":"Dilliwaali Girlfriend",
-                    "audio":"",
-                    "singer":"Pritam, Arjith Singh",
-                    "time":"04:24"
+                    "id":"Chennai Express",
+                    "cover":"https://s1.dmcdn.net/v/951Eo1Qm_4Lh0W_-I/x1080",
+                    "language":"Hindi",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Titli",
+                            "audio":"",
+                            "singer":"Gopi Sundar, Chinmai",
+                            "time":"04:12"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"One Two Three Four",
+                            "audio":"",
+                            "singer":"Vishal Dadlani, Hamiska",
+                            "time":"03:48"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Kashmir Main Tu Kanyakumari",
+                            "audio":"",
+                            "singer":"Sunidhi Chauhan, Arjith Singh",
+                            "time":"05:07"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Chennai Express",
+                            "audio":"",
+                            "singer":"SP.Balasubramanyam",
+                            "time":"04:03"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Ready Steady Po",
+                            "audio":"",
+                            "singer":"Phoenex, Zoeb Khan",
+                            "time":"03:40"
+                        }
+                    ]     
                 },
                 {
-                    "sid":4,
-                    "sname":"Balam Pichkari",
-                    "audio":"",
-                    "singer":"Pritam, Vishal Dadlani",
-                    "time":"04:56"
+                    "id":"Student Of The Year",
+                    "cover":"https://a10.gaanacdn.com/images/albums/31/1388431/crop_175x175_1388431.jpg",
+                    "language":"Hindi",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Ratta Maar",
+                            "audio":"",
+                            "singer":"Shafali Alvares",
+                            "time":"03:33"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Radha",
+                            "audio":"",
+                            "singer":"Shreya Goshal",
+                            "time":"05:43"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Ishq Wala Love",
+                            "audio":"",
+                            "singer":"Salim Merchant",
+                            "time":"04:19"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Kukkad",
+                            "audio":"",
+                            "singer":"Shahid Maliya",
+                            "time":"04:21"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Vele",
+                            "audio":"",
+                            "singer":"Vishal Dadlani",
+                            "time":"03:03"
+                        }
+                    ]     
                 },
                 {
-                    "sid":5,
-                    "sname":"Subhanallah",
-                    "audio":"",
-                    "singer":"Sreeram, Shilpa rao",
-                    "time":"04:09"
+                    "id":"Sonu Ke Titu Ki Sweety",
+                    "cover":"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/22af59675ab820bad978f2df63e6b95d710018293ed7e615d82cdbea0da42f68._UY500_UX667_RI_V_TTW_.jpg",
+                    "language":"Hindi",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Bom Diggy Diggy",
+                            "audio":"",
+                            "singer":"Zack Kingar",
+                            "time":"03:28"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Dil Chori",
+                            "audio":"",
+                            "singer":"Yo Yo Honey Singh",
+                            "time":"04:49"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Tera Yaar Hoon Main",
+                            "audio":"",
+                            "singer":"Yo Yo Honey Singh",
+                            "time":"04:25"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Kaun Nachdhi",
+                            "audio":"",
+                            "singer":"Arjith Singh",
+                            "time":"03:36"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Sweety Slowly Slowly",
+                            "audio":"",
+                            "singer":"Arjith Singh",
+                            "time":"03:02"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Half Girlfriend",
+                    "cover":"https://a10.gaanacdn.com/images/albums/75/1885375/crop_175x175_1493447201_1885375.jpg",
+                    "language":"Hindi",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Phir Bhi Tumko Chaahunga",
+                            "audio":"",
+                            "singer":"Mithoon",
+                            "time":"05:22"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Baarish",
+                            "audio":"",
+                            "singer":"Ash King",
+                            "time":"05:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Thodi Dher",
+                            "audio":"",
+                            "singer":"Shreya Goshal",
+                            "time":"05:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Tu Hi Hai",
+                            "audio":"",
+                            "singer":"Rahul Mishra",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Lost Without You",
+                            "audio":"",
+                            "singer":"Rahul Mishra",
+                            "time":"05:09"
+                        }
+                    ]     
+                },
+                {
+                "id":"PK",
+                "cover":"https://a10.gaanacdn.com/images/albums/99/265399/crop_175x175_265399.jpg",
+                "language":"Hindi",
+                "movie":[
+                    {
+                        "sid":1,
+                        "sname":"Chaar Kadham",
+                        "audio":"",
+                        "singer":"Shreya Ghoshal",
+                        "time":"03:43"
+                    },
+                    {
+                        "sid":2,
+                        "sname":"Love is a waste of time",
+                        "audio":"",
+                        "singer":"Shreya Ghosal",
+                        "time":"04:20"
+                    },
+                    {
+                        "sid":3,
+                        "sname":"Thakri Chokri",
+                        "audio":"",
+                        "singer":"Swaroop Khan",
+                        "time":"04:24"
+                    },
+                    {
+                        "sid":4,
+                        "sname":"Nanga Punga Dost",
+                        "audio":"",
+                        "singer":"Shreya Ghosal",
+                        "time":"04:56"
+                    },
+                    {
+                        "sid":5,
+                        "sname":"PK dance theme",
+                        "audio":"",
+                        "singer":"Shantanu",
+                        "time":"04:09"
+                    }
+                        
+                    ]
+                },
+                {
+                    "id":"Hamari Adhuri Kahani",
+                    "cover":"https://a10.gaanacdn.com/images/albums/67/1245667/crop_175x175_1245667.jpg",
+                    "language":"Hindi",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Hasi(Female Version)",
+                            "audio":"",
+                            "singer":"Shreya Ghosal",
+                            "time":"03:43"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Hamari Adhuri Kahani",
+                            "audio":"",
+                            "singer":"Arijit Singh",
+                            "time":"04:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Hasi (Male Version)",
+                            "audio":"",
+                            "singer":"Pritam, Arjith Singh",
+                            "time":"04:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Balam Pichkari",
+                            "audio":"",
+                            "singer":"Ami Mishra",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Yeh Kaisi Jagah",
+                            "audio":"",
+                            "singer":"Deepali Sathe",
+                            "time":"04:09"
+                        }
+                    ]     
                 }
-            ]     
-        },
-        {
-            "id":"Ae Dil Hai Mushkil",
-            "cover":"https://a10.gaanacdn.com/images/albums/94/1745894/crop_175x175_1745894.jpg?version=6",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Ae Dil Hai Mushkil",
-                    "audio":"",
-                    "singer":"pritam, Ajay Singha",
-                    "time":"04:30"
-                },
-                {
-                    "sid":2,
-                    "sname":"Channa Mereya",
-                    "audio":"",
-                    "singer":"pritam, Ajay Singha",
-                    "time":"04:49"
-                },
-                {
-                    "sid":3,
-                    "sname":"Bulleya",
-                    "audio":"",
-                    "singer":"pritam, Ajay Singha",
-                    "time":"05:49"
-                },
-                {
-                    "sid":4,
-                    "sname":"Alizeh",
-                    "audio":"",
-                    "singer":"pritam, Ajay Singha",
-                    "time":"04:43"
-                },
-                {
-                    "sid":5,
-                    "sname":"The Breakup Song",
-                    "audio":"",
-                    "singer":"pritam, Ajay Singha",
-                    "time":"04:02"
-                }
-            ]     
-        },
-        {
-            "id":"Chennai Express",
-            "cover":"https://s1.dmcdn.net/v/951Eo1Qm_4Lh0W_-I/x1080",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Titli",
-                    "audio":"",
-                    "singer":"Gopi Sundar, Chinmai",
-                    "time":"04:12"
-                },
-                {
-                    "sid":2,
-                    "sname":"One Two Three Four",
-                    "audio":"",
-                    "singer":"Vishal Dadlani, Hamiska",
-                    "time":"03:48"
-                },
-                {
-                    "sid":3,
-                    "sname":"Kashmir Main Tu Kanyakumari",
-                    "audio":"",
-                    "singer":"Sunidhi Chauhan, Arjith Singh",
-                    "time":"05:07"
-                },
-                {
-                    "sid":4,
-                    "sname":"Chennai Express",
-                    "audio":"",
-                    "singer":"SP.Balasubramanyam",
-                    "time":"04:03"
-                },
-                {
-                    "sid":5,
-                    "sname":"Ready Steady Po",
-                    "audio":"",
-                    "singer":"Phoenex, Zoeb Khan",
-                    "time":"03:40"
-                }
-            ]     
-        },
-        {
-            "id":"Student Of The Year",
-            "cover":"https://a10.gaanacdn.com/images/albums/31/1388431/crop_175x175_1388431.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Ratta Maar",
-                    "audio":"",
-                    "singer":"Shafali Alvares",
-                    "time":"03:33"
-                },
-                {
-                    "sid":2,
-                    "sname":"Radha",
-                    "audio":"",
-                    "singer":"Shreya Goshal",
-                    "time":"05:43"
-                },
-                {
-                    "sid":3,
-                    "sname":"Ishq Wala Love",
-                    "audio":"",
-                    "singer":"Salim Merchant",
-                    "time":"04:19"
-                },
-                {
-                    "sid":4,
-                    "sname":"Kukkad",
-                    "audio":"",
-                    "singer":"Shahid Maliya",
-                    "time":"04:21"
-                },
-                {
-                    "sid":5,
-                    "sname":"Vele",
-                    "audio":"",
-                    "singer":"Vishal Dadlani",
-                    "time":"03:03"
-                }
-            ]     
-        },
-        {
-            "id":"Sonu Ke Titu Ki Sweety",
-            "cover":"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/22af59675ab820bad978f2df63e6b95d710018293ed7e615d82cdbea0da42f68._UY500_UX667_RI_V_TTW_.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Bom Diggy Diggy",
-                    "audio":"",
-                    "singer":"Zack Kingar",
-                    "time":"03:28"
-                },
-                {
-                    "sid":2,
-                    "sname":"Dil Chori",
-                    "audio":"",
-                    "singer":"Yo Yo Honey Singh",
-                    "time":"04:49"
-                },
-                {
-                    "sid":3,
-                    "sname":"Tera Yaar Hoon Main",
-                    "audio":"",
-                    "singer":"Yo Yo Honey Singh",
-                    "time":"04:25"
-                },
-                {
-                    "sid":4,
-                    "sname":"Kaun Nachdhi",
-                    "audio":"",
-                    "singer":"Arjith Singh",
-                    "time":"03:36"
-                },
-                {
-                    "sid":5,
-                    "sname":"Sweety Slowly Slowly",
-                    "audio":"",
-                    "singer":"Arjith Singh",
-                    "time":"03:02"
-                }
-            ]     
-        },
-        {
-            "id":"Half Girlfriend",
-            "cover":"https://a10.gaanacdn.com/images/albums/75/1885375/crop_175x175_1493447201_1885375.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Phir Bhi Tumko Chaahunga",
-                    "audio":"",
-                    "singer":"Mithoon",
-                    "time":"05:22"
-                },
-                {
-                    "sid":2,
-                    "sname":"Baarish",
-                    "audio":"",
-                    "singer":"Ash King",
-                    "time":"05:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Thodi Dher",
-                    "audio":"",
-                    "singer":"Shreya Goshal",
-                    "time":"05:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Tu Hi Hai",
-                    "audio":"",
-                    "singer":"Rahul Mishra",
-                    "time":"04:56"
-                },
-                {
-                    "sid":5,
-                    "sname":"Lost Without You",
-                    "audio":"",
-                    "singer":"Rahul Mishra",
-                    "time":"05:09"
-                }
-            ]     
-        },
-        {
-        "id":"PK",
-            "cover":"https://a10.gaanacdn.com/images/albums/99/265399/crop_175x175_265399.jpg",
-            "Movie":[
-                {
-                    "sid":1,
-                    "sname":"Chaar Kadham",
-                    "audio":"",
-                    "singer":"Shreya Ghoshal",
-                    "time":"03:43"
-                },
-                {
-                    "sid":2,
-                    "sname":"Love is a waste of time",
-                    "audio":"",
-                    "singer":"Shreya Ghosal",
-                    "time":"04:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Thakri Chokri",
-                    "audio":"",
-                    "singer":"Swaroop Khan",
-                    "time":"04:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Nanga Punga Dost",
-                    "audio":"",
-                    "singer":"Shreya Ghosal",
-                    "time":"04:56"
-                },
-                {
-                    "sid":5,
-                    "sname":"PK dance theme",
-                    "audio":"",
-                    "singer":"Shantanu",
-                    "time":"04:09"
-                }
-            ]
-        },
-        {
-            "id":"Hamari Adhuri Kahani",
-            "cover":"https://a10.gaanacdn.com/images/albums/67/1245667/crop_175x175_1245667.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Hasi(Female Version)",
-                    "audio":"",
-                    "singer":"Shreya Ghosal",
-                    "time":"03:43"
-                },
-                {
-                    "sid":2,
-                    "sname":"Hamari Adhuri Kahani",
-                    "audio":"",
-                    "singer":"Arijit Singh",
-                    "time":"04:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Hasi (Male Version)",
-                    "audio":"",
-                    "singer":"Pritam, Arjith Singh",
-                    "time":"04:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Balam Pichkari",
-                    "audio":"",
-                    "singer":"Ami Mishra",
-                    "time":"04:56"
-                },
-                {
-                    "sid":5,
-                    "sname":"Yeh Kaisi Jagah",
-                    "audio":"",
-                    "singer":"Deepali Sathe",
-                    "time":"04:09"
-                }
-            ]     
-        }
     ],
-
-    "tamil":[
-        {
-            "id":"Ennai Piriyathe",
-            "cover":"https://a10.gaanacdn.com/images/albums/17/133717/crop_175x175_133717.jpg",
-            "movie":[
+    "Tamil":[
                 {
-                    "sid":1,
-                    "sname":"Dahavani Poove",
-                    "audio":"",
-                    "singer":"Prasanna",
-                    "time":"05:03"
+                    "id":"Ennai Piriyathe",
+                    "cover":"https://a10.gaanacdn.com/images/albums/17/133717/crop_175x175_133717.jpg",
+                    "language":"Tamil",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Dahavani Poove",
+                            "audio":"",
+                            "singer":"Prasanna",
+                            "time":"05:03"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Poomi Kaalkizha",
+                            "audio":"",
+                            "singer":"Mugesh",
+                            "time":"04:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Enge Nee Enge",
+                            "audio":"",
+                            "singer":"Madukkarai Jana",
+                            "time":"04:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Enenojanam",
+                            "audio":"",
+                            "singer":"ALS.Velan",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Moogama Vagama",
+                            "audio":"",
+                            "singer":"Durga Vishwanath",
+                            "time":"04:09"
+                        }
+                    ]     
                 },
                 {
-                    "sid":2,
-                    "sname":"Poomi Kaalkizha",
-                    "audio":"",
-                    "singer":"Mugesh",
-                    "time":"04:20"
+                    "id":"Singam",
+                    "cover":"https://a10.gaanacdn.com/images/albums/50/1326450/crop_175x175_1326450.jpg",
+                    "language":"Tamil",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Singam Singam",
+                            "audio":"",
+                            "singer":"Megha, Devi sri",
+                            "time":"05:34"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Kadhal Vandhale",
+                            "audio":"",
+                            "singer":"Baba Sehgal",
+                            "time":"03:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"En Idhiyam",
+                            "audio":"",
+                            "singer":"Devi Sri Prasad",
+                            "time":"04:32"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Stole My Heart",
+                            "audio":"",
+                            "singer":"Devi Sri Prasad",
+                            "time":"04:03"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Naane Indhiran",
+                            "audio":"",
+                            "singer":"Devi Sri Prasad",
+                            "time":"04:11"
+                        }
+                    ]     
                 },
                 {
-                    "sid":3,
-                    "sname":"Enge Nee Enge",
-                    "audio":"",
-                    "singer":"Madukkarai Jana",
-                    "time":"04:24"
+                    "id":"Maari 2",
+                    "cover":"https://a10.gaanacdn.com/images/albums/80/2284580/crop_175x175_1543382504_2284580.jpg",
+                    "language":"Tamil",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Rowdy Baby",
+                            "audio":"",
+                            "singer":"Dhanush, Dhee",
+                            "time":"03:58"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Maari gethu",
+                            "audio":"",
+                            "singer":"Yuvan Sankar",
+                            "time":"04:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Maari's Aanandhi",
+                            "audio":"",
+                            "singer":"Ilaiyaraaja",
+                            "time":"04:00"
+                        }
+                    ]     
                 },
                 {
-                    "sid":4,
-                    "sname":"Enenojanam",
-                    "audio":"",
-                    "singer":"ALS.Velan",
-                    "time":"04:56"
+                    "id":"Kadhal Ondru Kaden",
+                    "cover":"https://a10.gaanacdn.com/images/albums/33/3991333/crop_175x175_3991333.jpg",
+                    "language":"Tamil",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Kanna Veesi",
+                            "audio":"",
+                            "singer":"Rahul, Srinisha",
+                            "time":"02:52"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Hey Thirudi",
+                            "audio":"",
+                            "singer":"Rahul, Srinisha",
+                            "time":"01:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Enakaga Ava",
+                            "audio":"",
+                            "singer":"Rahul, Srinisha",
+                            "time":"02:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Usura Eduthu",
+                            "audio":"",
+                            "singer":"Rahul, Srinisha",
+                            "time":"01:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Kanna Reprise",
+                            "audio":"",
+                            "singer":"Rahul, Srinisha",
+                            "time":"01:09"
+                        }
+                    ]     
                 },
                 {
-                    "sid":5,
-                    "sname":"Moogama Vagama",
-                    "audio":"",
-                    "singer":"Durga Vishwanath",
-                    "time":"04:09"
+                    "id":"NGK",
+                    "cover":"https://a10.gaanacdn.com/images/albums/9/2471209/crop_175x175_1556700958_2471209.jpg",
+                    "language":"Tamil",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Anbae Peranbae",
+                            "audio":"",
+                            "singer":"Sid Sriran",
+                            "time":""
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Thandaikaaran",
+                            "audio":"",
+                            "singer":"Ranjith",
+                            "time":"03:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Pothachaalum",
+                            "audio":"",
+                            "singer":"Sivam",
+                            "time":"02:04"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Thimiranumda",
+                            "audio":"",
+                            "singer":"Jithin Raj",
+                            "time":"04:56"
+                        }
+                        
+                    ]     
+                },
+                {
+                    "id":"Three 3",
+                    "cover":"https://a10.gaanacdn.com/images/albums/9/58409/crop_175x175_58409.jpg",
+                    "language":"Tamil",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Po Nee Po",
+                            "audio":"",
+                            "singer":"Mohit Chauhan",
+                            "time":""
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Why This Kolaveri Di",
+                            "audio":"",
+                            "singer":"Dhanush",
+                            "time":"04:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"The Rythem Of Love",
+                            "audio":"",
+                            "singer":"Navin",
+                            "time":"04:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Come On Girls",
+                            "audio":"",
+                            "singer":"Anirudh",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Kannazhanga",
+                            "audio":"",
+                            "singer":"Dhanush",
+                            "time":"04:09"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Pattas",
+                    "cover":"https://a10.gaanacdn.com/images/albums/45/2930945/crop_175x175_1577536722_2930945.jpg",
+                    "language":"Tamil",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Jigidi Killaadi",
+                            "audio":"",
+                            "singer":"Anirudh Ravichandra",
+                            "time":"05:03"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Chill Bro",
+                            "audio":"",
+                            "singer":"Dhanush",
+                            "time":"04:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Pattas Dialogue Promo",
+                            "audio":"",
+                            "singer":"Dhanush",
+                            "time":"04:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Mavane",
+                            "audio":"",
+                            "singer":"Arivu",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Pudhu Suriyan",
+                            "audio":"",
+                            "singer":"Anuradha Sriram",
+                            "time":"04:09"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Naan Sirithal",
+                    "cover":"https://a10.gaanacdn.com/images/albums/3/3197103/crop_175x175_3197103.jpg",
+                    "language":"Tamil",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Gandhi Entry",
+                            "audio":"",
+                            "singer":"Hiphop Tamizha",
+                            "time":"01:52"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Inner Feelings",
+                            "audio":"",
+                            "singer":"Hiphop Tamizha",
+                            "time":"01:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Ajukku Gummuku",
+                            "audio":"",
+                            "singer":"Hiphop Tamizha",
+                            "time":"02:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Naan Sirithal End Credits",
+                            "audio":"",
+                            "singer":"Hiphop Tamizha",
+                            "time":"01:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Gangster Dilli",
+                            "audio":"",
+                            "singer":"Hiphop Tamizha",
+                            "time":"01:09"
+                        }
+                    ]     
                 }
-            ]     
-        },
-        {
-            "id":"Singam",
-            "cover":"https://a10.gaanacdn.com/images/albums/50/1326450/crop_175x175_1326450.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Singam Singam",
-                    "audio":"",
-                    "singer":"Megha, Devi sri",
-                    "time":"05:34"
-                },
-                {
-                    "sid":2,
-                    "sname":"Kadhal Vandhale",
-                    "audio":"",
-                    "singer":"Baba Sehgal",
-                    "time":"03:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"En Idhiyam",
-                    "audio":"",
-                    "singer":"Devi Sri Prasad",
-                    "time":"04:32"
-                },
-                {
-                    "sid":4,
-                    "sname":"Stole My Heart",
-                    "audio":"",
-                    "singer":"Devi Sri Prasad",
-                    "time":"04:03"
-                },
-                {
-                    "sid":5,
-                    "sname":"Naane Indhiran",
-                    "audio":"",
-                    "singer":"Devi Sri Prasad",
-                    "time":"04:11"
-                }
-            ]     
-        },
-        {
-            "id":"Maari 2",
-            "cover":"https://a10.gaanacdn.com/images/albums/80/2284580/crop_175x175_1543382504_2284580.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Rowdy Baby",
-                    "audio":"",
-                    "singer":"Dhanush, Dhee",
-                    "time":"03:58"
-                },
-                {
-                    "sid":2,
-                    "sname":"Maari gethu",
-                    "audio":"",
-                    "singer":"Yuvan Sankar",
-                    "time":"04:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Maari's Aanandhi",
-                    "audio":"",
-                    "singer":"Ilaiyaraaja",
-                    "time":"04:00"
-                }
-            ]     
-        },
-        {
-            "id":"Kadhal Ondru Kaden",
-            "cover":"https://a10.gaanacdn.com/images/albums/33/3991333/crop_175x175_3991333.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Kanna Veesi",
-                    "audio":"",
-                    "singer":"Rahul, Srinisha",
-                    "time":"02:52"
-                },
-                {
-                    "sid":2,
-                    "sname":"Hey Thirudi",
-                    "audio":"",
-                    "singer":"Rahul, Srinisha",
-                    "time":"01:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Enakaga Ava",
-                    "audio":"",
-                    "singer":"Rahul, Srinisha",
-                    "time":"02:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Usura Eduthu",
-                    "audio":"",
-                    "singer":"Rahul, Srinisha",
-                    "time":"01:56"
-                },
-                {
-                    "sid":5,
-                    "sname":"Kanna Reprise",
-                    "audio":"",
-                    "singer":"Rahul, Srinisha",
-                    "time":"01:09"
-                }
-            ]     
-        },
-        {
-            "id":"NGK",
-            "cover":"https://a10.gaanacdn.com/images/albums/9/2471209/crop_175x175_1556700958_2471209.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Anbae Peranbae",
-                    "audio":"",
-                    "singer":"Sid Sriran",
-                    "time":""
-                },
-                {
-                    "sid":2,
-                    "sname":"Thandaikaaran",
-                    "audio":"",
-                    "singer":"Ranjith",
-                    "time":"03:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Pothachaalum",
-                    "audio":"",
-                    "singer":"Sivam",
-                    "time":"02:04"
-                },
-                {
-                    "sid":4,
-                    "sname":"Thimiranumda",
-                    "audio":"",
-                    "singer":"Jithin Raj",
-                    "time":"04:56"
-                }
-                
-            ]     
-        },
-        {
-            "id":"Three 3",
-            "cover":"https://a10.gaanacdn.com/images/albums/9/58409/crop_175x175_58409.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Po Nee Po",
-                    "audio":"",
-                    "singer":"Mohit Chauhan",
-                    "time":""
-                },
-                {
-                    "sid":2,
-                    "sname":"Why This Kolaveri Di",
-                    "audio":"",
-                    "singer":"Dhanush",
-                    "time":"04:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"The Rythem Of Love",
-                    "audio":"",
-                    "singer":"Navin",
-                    "time":"04:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Come On Girls",
-                    "audio":"",
-                    "singer":"Anirudh",
-                    "time":"04:56"
-                },
-                {
-                    "sid":5,
-                    "sname":"Kannazhanga",
-                    "audio":"",
-                    "singer":"Dhanush",
-                    "time":"04:09"
-                }
-            ]     
-        },
-        {
-            "id":"Pattas",
-            "cover":"https://a10.gaanacdn.com/images/albums/45/2930945/crop_175x175_1577536722_2930945.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Jigidi Killaadi",
-                    "audio":"",
-                    "singer":"Anirudh Ravichandra",
-                    "time":"05:03"
-                },
-                {
-                    "sid":2,
-                    "sname":"Chill Bro",
-                    "audio":"",
-                    "singer":"Dhanush",
-                    "time":"04:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Pattas Dialogue Promo",
-                    "audio":"",
-                    "singer":"Dhanush",
-                    "time":"04:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Mavane",
-                    "audio":"",
-                    "singer":"Arivu",
-                    "time":"04:56"
-                },
-                {
-                    "sid":5,
-                    "sname":"Pudhu Suriyan",
-                    "audio":"",
-                    "singer":"Anuradha Sriram",
-                    "time":"04:09"
-                }
-            ]     
-        },
-        {
-            "id":"Naan Sirithal",
-            "cover":"https://a10.gaanacdn.com/images/albums/3/3197103/crop_175x175_3197103.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Gandhi Entry",
-                    "audio":"",
-                    "singer":"Hiphop Tamizha",
-                    "time":"01:52"
-                },
-                {
-                    "sid":2,
-                    "sname":"Inner Feelings",
-                    "audio":"",
-                    "singer":"Hiphop Tamizha",
-                    "time":"01:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Ajukku Gummuku",
-                    "audio":"",
-                    "singer":"Hiphop Tamizha",
-                    "time":"02:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Naan Sirithal End Credits",
-                    "audio":"",
-                    "singer":"Hiphop Tamizha",
-                    "time":"01:56"
-                },
-                {
-                    "sid":5,
-                    "sname":"Gangster Dilli",
-                    "audio":"",
-                    "singer":"Hiphop Tamizha",
-                    "time":"01:09"
-                }
-            ]     
-        }
-
+        
     ],
-
-    "kannada":[
-        {
-            "id":"Love Mocktail",
-            "cover":"https://a10.gaanacdn.com/images/albums/12/2977412/crop_175x175_1579159848_2977412.jpg",
-            "movie":[
+    "Kannada":[
                 {
-                    "sid":1,
-                    "sname":"Love Love chinna",
-                    "audio":"",
-                    "singer":"Shruthi VS",
-                    "time":"03:56"
+                    "id":"Love Mocktail",
+                    "cover":"https://a10.gaanacdn.com/images/albums/12/2977412/crop_175x175_1579159848_2977412.jpg",
+                    "language":"Kannada",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Love Love chinna",
+                            "audio":"",
+                            "singer":"Shruthi VS",
+                            "time":"03:56"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Oh Oh Love",
+                            "audio":"",
+                            "singer":"Raghu Dixit",
+                            "time":"04:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Kanna Haniyodu",
+                            "audio":"",
+                            "singer":"Raghu Dixit",
+                            "time":"04:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Neene Yendigu",
+                            "audio":"",
+                            "singer":"Nihal Tauro",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Modala Prema",
+                            "audio":"",
+                            "singer":"Ashwin Sharma",
+                            "time":"04:09"
+                        }
+                    ]     
                 },
                 {
-                    "sid":2,
-                    "sname":"Oh Oh Love",
-                    "audio":"",
-                    "singer":"Raghu Dixit",
-                    "time":"04:20"
+                    "id":"Yuvarathnaa",
+                    "cover":"https://a10.gaanacdn.com/images/albums/49/3571249/crop_175x175_1615522596_3571249.jpg",
+                    "language":"Kannada",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Power Of Youth",
+                            "audio":"",
+                            "singer":"Armaan Malik",
+                            "time":"04:54"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Neenade Naa",
+                            "audio":"",
+                            "singer":"Armaan Malik",
+                            "time":"04:21"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Oorigobba Raaja",
+                            "audio":"",
+                            "singer":"Puneeth Rajkumar",
+                            "time":"01:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Paatashaala",
+                            "audio":"",
+                            "singer":"Vijay Prakash",
+                            "time":"04:22"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Feel the Power",
+                            "audio":"",
+                            "singer":"Shankar",
+                            "time":"03:09"
+                        }
+                    ]     
                 },
                 {
-                    "sid":3,
-                    "sname":"Kanna Haniyodu",
-                    "audio":"",
-                    "singer":"Raghu Dixit",
-                    "time":"04:24"
+                    "id":"Tagaru",
+                    "cover":"https://a10.gaanacdn.com/images/albums/51/2048251/crop_175x175_1514013153_2048251.jpg",
+                    "language":"Kannada",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Tagaru Banthu Tagaru",
+                            "audio":"",
+                            "singer":"Anthony Daasan",
+                            "time":"03:47"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Mental Ho Jawa",
+                            "audio":"",
+                            "singer":"Sree Raksha Achar",
+                            "time":"04:29"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Balma",
+                            "audio":"",
+                            "singer":"Charan Raj",
+                            "time":"03:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Hold On",
+                            "audio":"",
+                            "singer":"Ananya Bhat",
+                            "time":"04:06"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Jeeva Sakhi",
+                            "audio":"",
+                            "singer":"Charan Raj",
+                            "time":"03:59"
+                        }
+                    ]     
                 },
                 {
-                    "sid":4,
-                    "sname":"Neene Yendigu",
-                    "audio":"",
-                    "singer":"Nihal Tauro",
-                    "time":"04:56"
+                    "id":"Kirik Party",
+                    "cover":"https://a10.gaanacdn.com/images/albums/81/1828181/crop_175x175_1502431282_1828181.jpg",
+                    "language":"Kannada",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Belageddu",
+                            "audio":"",
+                            "singer":"Vijay Prakash",
+                            "time":"03:27"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Kaagadada Doniyalli",
+                            "audio":"",
+                            "singer":"Vasuki Vaibhav",
+                            "time":"04:00"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Hey Who Are Yoy",
+                            "audio":"",
+                            "singer":"BJ.Barath",
+                            "time":"04:44"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Thirboki Jeevana",
+                            "audio":"",
+                            "singer":"B Ajneesh",
+                            "time":"04:06"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Last Benchu Party",
+                            "audio":"",
+                            "singer":"Chandan Achar",
+                            "time":"04:19"
+                        }
+                    ]     
                 },
                 {
-                    "sid":5,
-                    "sname":"Modala Prema",
-                    "audio":"",
-                    "singer":"Ashwin Sharma",
-                    "time":"04:09"
+                    "id":"Salaga",
+                    "cover":"https://a10.gaanacdn.com/images/albums/70/2964370/crop_175x175_1611554593_2964370.jpg",
+                    "language":"Kannada",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Maieye Maleye",
+                            "audio":"",
+                            "singer":"Sanjith Hegde",
+                            "time":"04:22"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Suri Anna",
+                            "audio":"",
+                            "singer":"Anthony Dasan",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Salaga Title Track",
+                            "audio":"",
+                            "singer":"Yogi BC",
+                            "time":"02:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"I Love You Sanjana",
+                            "audio":"",
+                            "singer":"Naveen Sajju",
+                            "time":"04:06"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Salaga Theme",
+                            "audio":"",
+                            "singer":"Charan Raj",
+                            "time":"01:09"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Inspector Vikram",
+                    "cover":"https://a10.gaanacdn.com/images/albums/20/2957620/crop_175x175_1583727885_2957620.jpg",
+                    "language":"Kannada",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Nannavale Nannavale",
+                            "audio":"",
+                            "singer":"Sonu Nigam",
+                            "time":"03:45"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Hey Guys",
+                            "audio":"",
+                            "singer":"Anoop Seelin",
+                            "time":"03:20"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Moolimani Muddesa",
+                            "audio":"",
+                            "singer":"Anthony Daasan",
+                            "time":"03:54"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"D Boss Theme",
+                            "audio":"",
+                            "singer":"J Anoop",
+                            "time":"01:56"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Dronal",
+                    "cover":"https://a10.gaanacdn.com/images/albums/0/2962800/crop_175x175_1580131245_2962800.jpg",
+                    "language":"Kannada",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Shake Ma Sainora",
+                            "audio":"",
+                            "singer":"Sanjith Hegde",
+                            "time":"03:43"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Sri Raamne",
+                            "audio":"",
+                            "singer":"Vijay Prakarsht",
+                            "time":"05:12"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Mirri Mirriyaa",
+                            "audio":"",
+                            "singer":"Chetan Naikt",
+                            "time":"02:24"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Gurur Brahma",
+                            "audio":"",
+                            "singer":"Priya Mali",
+                            "time":"03:26"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Nenu Mechukaage",
+                            "audio":"",
+                            "singer":"Priya Mali",
+                            "time":"02:09"
+                        }
+                    ]     
+                },
+                {
+                    "id":"Kavacha",
+                    "cover":"https://a10.gaanacdn.com/images/albums/35/2275635/crop_175x175_2275635.jpg",
+                    "language":"Kannada",
+                    "movie":[
+                        {
+                            "sid":1,
+                            "sname":"Rekaya-Duet",
+                            "audio":"",
+                            "singer":"SP Balasubrahmanyam",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":2,
+                            "sname":"Yaaro Nee",
+                            "audio":"",
+                            "singer":"Vyas Raj",
+                            "time":"03:33"
+                        },
+                        {
+                            "sid":3,
+                            "sname":"Kaneeraa",
+                            "audio":"",
+                            "singer":"Vyas Raj",
+                            "time":"04:20"
+                        },
+                        {
+                            "sid":4,
+                            "sname":"Neene Yendigu",
+                            "audio":"",
+                            "singer":"Nihal Tauro",
+                            "time":"04:56"
+                        },
+                        {
+                            "sid":5,
+                            "sname":"Rekayya-solo",
+                            "audio":"",
+                            "singer":"Sreya Jayadeep",
+                            "time":"04:49"
+                        }
+                    ]     
                 }
-            ]     
-        },
-        {
-            "id":"Yuvarathnaa",
-            "cover":"https://a10.gaanacdn.com/images/albums/49/3571249/crop_175x175_1615522596_3571249.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Power Of Youth",
-                    "audio":"",
-                    "singer":"Armaan Malik",
-                    "time":"04:54"
-                },
-                {
-                    "sid":2,
-                    "sname":"Neenade Naa",
-                    "audio":"",
-                    "singer":"Armaan Malik",
-                    "time":"04:21"
-                },
-                {
-                    "sid":3,
-                    "sname":"Oorigobba Raaja",
-                    "audio":"",
-                    "singer":"Puneeth Rajkumar",
-                    "time":"01:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Paatashaala",
-                    "audio":"",
-                    "singer":"Vijay Prakash",
-                    "time":"04:22"
-                },
-                {
-                    "sid":5,
-                    "sname":"Feel the Power",
-                    "audio":"",
-                    "singer":"Shankar",
-                    "time":"03:09"
-                }
-            ]     
-        },
-        {
-            "id":"Tagaru",
-            "cover":"https://a10.gaanacdn.com/images/albums/51/2048251/crop_175x175_1514013153_2048251.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Tagaru Banthu Tagaru",
-                    "audio":"",
-                    "singer":"Anthony Daasan",
-                    "time":"03:47"
-                },
-                {
-                    "sid":2,
-                    "sname":"Mental Ho Jawa",
-                    "audio":"",
-                    "singer":"Sree Raksha Achar",
-                    "time":"04:29"
-                },
-                {
-                    "sid":3,
-                    "sname":"Balma",
-                    "audio":"",
-                    "singer":"Charan Raj",
-                    "time":"03:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Hold On",
-                    "audio":"",
-                    "singer":"Ananya Bhat",
-                    "time":"04:06"
-                },
-                {
-                    "sid":5,
-                    "sname":"Jeeva Sakhi",
-                    "audio":"",
-                    "singer":"Charan Raj",
-                    "time":"03:59"
-                }
-            ]     
-        },
-        {
-            "id":"Kirik Party",
-            "cover":"https://a10.gaanacdn.com/images/albums/81/1828181/crop_175x175_1502431282_1828181.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Belageddu",
-                    "audio":"",
-                    "singer":"Vijay Prakash",
-                    "time":"03:27"
-                },
-                {
-                    "sid":2,
-                    "sname":"Kaagadada Doniyalli",
-                    "audio":"",
-                    "singer":"Vasuki Vaibhav",
-                    "time":"04:00"
-                },
-                {
-                    "sid":3,
-                    "sname":"Hey Who Are Yoy",
-                    "audio":"",
-                    "singer":"BJ.Barath",
-                    "time":"04:44"
-                },
-                {
-                    "sid":4,
-                    "sname":"Thirboki Jeevana",
-                    "audio":"",
-                    "singer":"B Ajneesh",
-                    "time":"04:06"
-                },
-                {
-                    "sid":5,
-                    "sname":"Last Benchu Party",
-                    "audio":"",
-                    "singer":"Chandan Achar",
-                    "time":"04:19"
-                }
-            ]     
-        },
-        {
-            "id":"Salaga",
-            "cover":"https://a10.gaanacdn.com/images/albums/70/2964370/crop_175x175_1611554593_2964370.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Maieye Maleye",
-                    "audio":"",
-                    "singer":"Sanjith Hegde",
-                    "time":"04:22"
-                },
-                {
-                    "sid":2,
-                    "sname":"Suri Anna",
-                    "audio":"",
-                    "singer":"Anthony Dasan",
-                    "time":"04:56"
-                },
-                {
-                    "sid":3,
-                    "sname":"Salaga Title Track",
-                    "audio":"",
-                    "singer":"Yogi BC",
-                    "time":"02:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"I Love You Sanjana",
-                    "audio":"",
-                    "singer":"Naveen Sajju",
-                    "time":"04:06"
-                },
-                {
-                    "sid":5,
-                    "sname":"Salaga Theme",
-                    "audio":"",
-                    "singer":"Charan Raj",
-                    "time":"01:09"
-                }
-            ]     
-        },
-        {
-            "id":"Inspector Vikram",
-            "cover":"https://a10.gaanacdn.com/images/albums/20/2957620/crop_175x175_1583727885_2957620.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Nannavale Nannavale",
-                    "audio":"",
-                    "singer":"Sonu Nigam",
-                    "time":"03:45"
-                },
-                {
-                    "sid":2,
-                    "sname":"Hey Guys",
-                    "audio":"",
-                    "singer":"Anoop Seelin",
-                    "time":"03:20"
-                },
-                {
-                    "sid":3,
-                    "sname":"Moolimani Muddesa",
-                    "audio":"",
-                    "singer":"Anthony Daasan",
-                    "time":"03:54"
-                },
-                {
-                    "sid":4,
-                    "sname":"D Boss Theme",
-                    "audio":"",
-                    "singer":"J Anoop",
-                    "time":"01:56"
-                }
-            ]     
-        },
-        {
-            "id":"Dronal",
-            "cover":"https://a10.gaanacdn.com/images/albums/0/2962800/crop_175x175_1580131245_2962800.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Shake Ma Sainora",
-                    "audio":"",
-                    "singer":"Sanjith Hegde",
-                    "time":"03:43"
-                },
-                {
-                    "sid":2,
-                    "sname":"Sri Raamne",
-                    "audio":"",
-                    "singer":"Vijay Prakarsht",
-                    "time":"05:12"
-                },
-                {
-                    "sid":3,
-                    "sname":"Mirri Mirriyaa",
-                    "audio":"",
-                    "singer":"Chetan Naikt",
-                    "time":"02:24"
-                },
-                {
-                    "sid":4,
-                    "sname":"Gurur Brahma",
-                    "audio":"",
-                    "singer":"Priya Mali",
-                    "time":"03:26"
-                },
-                {
-                    "sid":5,
-                    "sname":"Nenu Mechukaage",
-                    "audio":"",
-                    "singer":"Priya Mali",
-                    "time":"02:09"
-                }
-            ]     
-        },
-        {
-            "id":"Kavacha ",
-            "cover":"https://a10.gaanacdn.com/images/albums/35/2275635/crop_175x175_2275635.jpg",
-            "movie":[
-                {
-                    "sid":1,
-                    "sname":"Rekaya-Duet",
-                    "audio":"",
-                    "singer":"SP Balasubrahmanyam",
-                    "time":"04:56"
-                },
-                {
-                    "sid":2,
-                    "sname":"Yaaro Nee",
-                    "audio":"",
-                    "singer":"Vyas Raj",
-                    "time":"03:33"
-                },
-                {
-                    "sid":3,
-                    "sname":"Kaneeraa",
-                    "audio":"",
-                    "singer":"Vyas Raj",
-                    "time":"04:20"
-                },
-                {
-                    "sid":4,
-                    "sname":"Neene Yendigu",
-                    "audio":"",
-                    "singer":"Nihal Tauro",
-                    "time":"04:56"
-                },
-                {
-                    "sid":5,
-                    "sname":"Rekayya-solo",
-                    "audio":"",
-                    "singer":"Sreya Jayadeep",
-                    "time":"04:49"
-                }
-            ]     
-        }
     ],
     "artists":[
             {

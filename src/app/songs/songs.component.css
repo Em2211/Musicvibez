@@ -1,6 +1,12 @@
 #pointer{
     cursor:pointer;
 }
+#pointer:hover{
+    background-color: rgb(47, 103, 105);
+}
+#pointer.active{
+    background-color:rgb(33, 78, 80) ;
+}
 img{
     border-radius: 20px;
 }
