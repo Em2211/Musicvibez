@@ -1,24 +1,25 @@
 .navbar{
-    background-color: rgb(5, 11, 32);
+    background-color: #0a5e57;
 }
-.brand{
+.navbar-brand{
     font-weight: bold;
-    font-family: 'Lobster Two', cursive;
     text-decoration: none;
 }
 h2{
     font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav-link{
     font-size: 18px;
     margin-right: 20px;
-    color:rgb(35, 157, 179) !important;
+    color:#E3E2Df !important;
 }
+
 span{
     background-color: white !important;
+    border-radius: 5px;
 }
 .active{
-    border-radius: 20px;
     font-size: 19px;
     font-weight:bold;
     border-radius: 0px;
@@ -27,4 +28,10 @@ span{
 .icon{
     width:50%;
     color:white;
+}
+
+@media screen and (max-width:450px){
+    .navbar-brand{
+        font-size: 15px;
+    }
 }

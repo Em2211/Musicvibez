@@ -18,7 +18,16 @@ export class LanguageService {
   getArtists():Observable<any>{
     return this.hc.get<any>('http://localhost:3000/artists')
   }
+  
+  getArtistSongsById(id):Observable<any>{
+    return this.hc.get<any>('http://localhost:3000/artists/'+id)
+  }
 
-
-
+  getSongsByGenre(id):Observable<any>{
+    return this.hc.get<any>('http://localhost:3000/genre/'+id)
+  }
+  
+  getTophitSongs(id):Observable<any>{
+    return this.hc.get<any>('http://localhost:3000/tophits/'+id)
+  }
 }

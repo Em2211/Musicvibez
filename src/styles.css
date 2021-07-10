@@ -1,6 +1,15 @@
 body{
-    background-image: url("https://i2.wp.com/www.dronstudy.com/wp-content/uploads//2017/11/dark-background-with-star-like-dots_bkpaotdgh__F0000.png?ssl=1");
+    background-image: url("https://ak.picdn.net/shutterstock/videos/5921018/thumb/1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 150%;
+    background-size: 100% 200%;
+    background-color: rgb(2, 2, 2);
     overflow-x: hidden;
+}
+
+html,body{
+     height: 100%;
+}
+body{
+     margin: 0; 
+     font-family: Roboto, "Helvetica Neue", sans-serif; 
 }

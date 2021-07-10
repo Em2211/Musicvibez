@@ -1,5 +1,4 @@
 <!--Carousel-->
-
 <div id="carouselExampleIndicators" class="carousel slide ms-5 me-5" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -25,7 +24,6 @@
           <img src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/603f13359993ea5c66267860/BANNER_4137335800531.png" class="d-block w-100" width="1000px" height="400px"  alt="...">
         </div>
     </div>
-  
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -36,24 +34,198 @@
     </button>
   </div>
 
-  <!--language cards-->
+  
 
-  <h3 class="rm mt-5 text-white mb-3 ">listen by languages</h3>
-  <div class="container mb-4">
-    <div class="row">
-        <div class="col-3">
-              <a (click)="onSelectTelugu('Telugu')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(jpg)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/607fbd495d936e20be4804ca/COLLECTION_644175796708201.png" height=250px width=100%></a>
-         </div>
-         <div class="col-3">
-             <a (click)="onSelectHindi('Hindi')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60b0d91b1539441e5988dc18/COLLECTION_34102033319096.png" height=250px width=100%></a>
-         </div>
-         <div class="col-3">
-             <a (click)="onSelectTamil('Tamil')"><img src="https://lasopalemon705.weebly.com/uploads/1/2/7/2/127203655/354283813.png" height=250px width=100%></a>
-         </div>
-         <div class="col-3">
-             <a (click)="onSelectKannada('Kannada')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60b48d0fb6e40363798947fc/COLLECTION_326661307453048.png" height=250px width=100%></a>
-         </div>      
+  <!--languages-->
+  <div class="container">
+    <h1 class="mt-4 text-white mb-3 category">listen by languages</h1>
+    <div id="languages" class="carousel slide" data-pause=hover data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-1 l1">
+            <div>
+              <a (click)="onSelectLanguage('Telugu')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60dc48851272c45e2efa8b07/COLLECTION_80704496126456.png" height=230px width=100% alt="image not found"></a>
+            </div>
+            <div>
+              <a (click)="onSelectLanguage('Hindi')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60b0d91b1539441e5988dc18/COLLECTION_34102033319096.png" height=230px width=100% alt="image not found"></a>
+            </div>
+            <div>
+              <a (click)="onSelectLanguage('Tamil')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60dc488261f3b94d319babf7/COLLECTION_30606768038740.png" height=230px width=100% alt="image not found"></a>
+            </div>
+            <div>
+              <a (click)="onSelectLanguage('Kannada')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60b48d0fb6e40363798947fc/COLLECTION_326661307453048.png" height=230px width=100% alt="image not found"></a>
+            </div>  
+            <div>
+              <a (click)="onSelectLanguage('English')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60deac8f2e4261523baea11b/COLLECTION_16713493673812.png" height=230px width=100% alt="image not found"></a>
+            </div>    
+        </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-1 l1">
+            <div>
+              <a (click)="onSelectLanguage('Marathi')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/5f48a7eb982404381dd56733/COLLECTION_1260979087518770.png" height=230px width=100%></a>
+            </div>
+            <div>
+              <a (click)="onSelectLanguage('Malayalam')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60c20a2c25a82473aec4317f/COLLECTION_1046220559009203.png" height=230px width=100%></a>
+            </div>
+            <div>
+              <a (click)="onSelectLanguage('Bengali')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60505622fbfc8d281501a3f4/COLLECTION_99201278151918.png" height=230px width=100%></a>
+            </div>   
+        </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#languages" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#languages" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
 
 
- 
+  <!--mood-->
+ <div class="container mb-4">
+  <h1 class="mt-4 text-white mb-3 category">listen by Mood</h1>
+  <div id="mood" class="carousel slide" data-pause=hover data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-1 l1">
+          <div>
+            <a (click)="onSelect('Sad')"><img src="https://i.scdn.co/image/ab67706c0000bebba795ef7e71dbb2947285a0f6" height=210px width=100% alt="image not found"></a>
+          </div>
+          <div>
+            <a (click)="onSelect('Inspiration')"><img src="https://s3.amazonaws.com/content.sitezoogle.com/u/227883/cec8532f8cec7a2bd4cfeb36ef8b4cd20bb2b9d0/large/inspiration.png?1484434192" height=210px width=100% alt="image not found"></a>
+          </div>
+          <div>
+            <a (click)="onSelect('Meditation')"><img src="https://c.saavncdn.com/117/Meditation-Hindi-2017-20171115-500x500.jpg" height=210px width=100%></a>
+          </div>
+          <div>
+            <a (click)="onSelect('RoadTrip')"><img src="https://i.scdn.co/image/ab67706c0000bebbdffa0e5c3fa48dd3c5051ba0" height=210px width=100%></a>
+          </div>  
+          <div>
+            <a (click)="onSelect('Relax')"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDqvFQvDRBGBWsVwlSeQCY5HAI2GEYeevwRUlsgwWWpiZML4SUJOIQ_cLxl0oefEukZ_M&usqp=CAU" height=210px width=100% alt="image not found"></a>
+          </div>    
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-1 l1">
+          <div>
+            <a (click)="onSelect('Melody')"><img src="https://a10.gaanacdn.com/gn_img/albums/w4MKPObojg/4MKP1qXg3o/size_xxl.webp" height=210px width=100% alt="image not found"></a>
+          </div>
+          <div>
+            <a (click)="onSelect('Romantic')"><img src="https://raaga.gumlet.io/raagaimg/r_img/250/t/tc0001490.jpg?w=240&dpr=2.6" height=210px width=100% alt="image not found"></a>
+          </div>   
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mood" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mood" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+  
+
+<!--international top hits-->
+  <div class="container">
+    <h1 class="mt-4 text-white mb-3 category">International top-hits</h1>
+    <div id="top-hits" class="carousel slide" data-pause=hover data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-1 l1">
+            <div>
+              <a (click)="onSelectTophit('BTS')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_orchard/music/20210604011716_196006771362/1622784910/srch_orchard_196006771362_QM6MZ2156864.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">BTS</h2>
+              <h3 class="text-center text-secondary">Butter</h3>
+            </div> 
+            <div>
+              <a (click)="onSelectTophit('Senorita')"><img src="https://www.quirkybyte.com/wp-content/uploads/2019/07/Senorita-English-Song-Download-Shawn-Mendes.png" height=230px width=100% alt="image not found"></a>
+                <h2 class="text-center text-white">Senorita</h2>
+                <h3 class="text-center text-secondary">Shawn Mendes</h3>
+            </div>
+            <div>
+              <a (click)="onSelectTophit('On my way')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0008969041G.jpg" height=230px width=100% alt="image not found"></a>
+                <h2 class="text-center text-white">On my way</h2>
+                <h3 class="text-center text-secondary">Sabrina Carpenter</h3>
+            </div>
+            <div>
+              <a (click)="onSelectTophit('Peaches')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1616133174/srch_universalmusic_00602435848983-USUM72102636.jpg" height=230px width=100%></a>
+              <h2 class="text-center text-white">Peaches</h2>
+              <h3 class="text-center text-secondary">Justin Bieber</h3>
+            </div>
+            <div>
+              <a (click)="onSelectTophit('Sugar and Brownies')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0008982849D.jpg" height=230px width=100%></a>
+              <h2 class="text-center text-white">Sugar and brownies</h2>
+              <h3 class="text-center text-secondary">Dharia</h3>
+            </div>    
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-1 l1">
+            <div>
+              <a (click)="onSelectTophit('Faded')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E00076229396.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Faded</h2>
+              <h3 class="text-center text-secondary">Alan Walker</h3>
+            </div>
+            <div>
+              <a (click)="onSelectTophit('Closer')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0007917812A.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Closer</h2>
+              <h3 class="text-center text-secondary">The Chain Smoker</h3>
+            </div> 
+            <div>
+              <a (click)="onSelectTophit('Taki Taki')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1538078619/srch_universalmusic_00602577004759-USUG11802029.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Taki Taki</h2>
+              <h3 class="text-center text-secondary">Selena Gomez</h3>
+            </div> 
+            <div>
+              <a (click)="onSelectTophit('Cheap Thrills')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0007715972X.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Cheap Thrills</h2>
+              <h3 class="text-center text-secondary">Sean pauls</h3>
+            </div>  
+            <div>
+              <a (click)="onSelectTophit('Let me Love You')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/1599607204/srch_universalmusic_00602557056273-QMZSY1600015.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Let me Love You</h2>
+              <h3 class="text-center text-secondary">DJ Snake</h3>
+            </div>  
+        </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-1 l1">
+            <div>
+              <a (click)="onSelectTophit('Safari')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/srch_sonymusic_A10328E0009053285R.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Safari</h2>
+              <h3 class="text-center text-secondary">Serena</h3>
+            </div>
+            <div>
+              <a (click)="onSelectTophit('Memories')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1568955083/srch_universalmusic_00602508101816-USUM71913350.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Memories</h2>
+              <h3 class="text-center text-secondary">Maroon 5</h3>
+            </div> 
+            <div>
+              <a (click)="onSelectTophit('Believer')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/1485874711/srch_universalmusic_00602557443325-USUM71700626.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Believer</h2>
+              <h3 class="text-center text-secondary">Imagine Dragons</h3>
+            </div> 
+            <div>
+              <a (click)="onSelectTophit('Baby')"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_universalmusic/music/update/1591429900/srch_hungama_2287031.jpg" height=230px width=100% alt="image not found"></a>
+              <h2 class="text-center text-white">Baby</h2>
+              <h3 class="text-center text-secondary">Justin Bieber</h3>
+            </div>   
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#top-hits" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#top-hits" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>

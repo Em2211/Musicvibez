@@ -10,7 +10,6 @@ import { LanguageService } from '../language.service';
   styleUrls: ['./songs.component.css']
 })
 export class SongsComponent implements OnInit {
-
   songs:any;
   playStatus=false
   vol=false
@@ -19,7 +18,6 @@ export class SongsComponent implements OnInit {
   ngOnInit(): void {
     let lan=this.ar.snapshot.url[1].path; 
     let id=this.ar.snapshot.params.id;
-
     this.sObj.getSongsById(lan,id).subscribe(
       sdata=>{
         this.songs=sdata;
@@ -28,7 +26,6 @@ export class SongsComponent implements OnInit {
         console.log('error in loading data',err.message)
       }
     )
-
   }
   
   audioObj=new Audio();
@@ -38,31 +35,31 @@ export class SongsComponent implements OnInit {
     "play",
     "playing",
     "pause",
-    "timeUpdate",
+    "timeupdate",
     "canplay",
     "loadedmetadata",
     "loadstart"
   ]
-  currenttime="00:00:00";
-  duration="00:00:00";
-  seek=0
- 
-
+  currenttime="00:00";
+  duration="00:00";
+  seek=0;
   streamObserver(audio){
     return new Observable(observer =>{
       this.audioObj.src=audio;
       this.audioObj.load();
-      this.audioObj.play()
-
+      this.audioObj.play();
       const handler=(event:Event)=>{
-        this.seek=this.audioObj.currentTime;
+        this.seek=this.audioObj.currentTime/(this.audioObj.duration/100);
         this.currenttime=this.timeFormat(this.audioObj.currentTime);
-        this.duration=this.timeFormat(this.audioObj.duration)
+        this.duration=this.timeFormat(this.audioObj.duration);
+        
       }
-      this.addEvent(this.audioObj, this.audioEvents, handler)
-      return () =>{
+      this.addEvent(this.audioObj,this.audioEvents,handler)
+      return()=>{
+        this.audioObj.pause();
         this.audioObj.currentTime=0;
-       
+
+        this.removeEvent (this.audioObj,this.audioEvents,handler)
       }
     });
   }
@@ -72,9 +69,14 @@ export class SongsComponent implements OnInit {
     })
   }
   removeEvent(obj,events,handler){
-    
+    events.forEach(event =>{
+      obj.removeEventListener(event,handler);
+    })
   }
-
+  setSeekTo(ev){
+    this.audioObj.currentTime 
+    = ev.target.value*(this.audioObj.duration/100)
+  }
   setVolume(ev){
     this.audioObj.volume = ev.target.value
     if (this.audioObj.volume==0){
@@ -88,7 +90,6 @@ export class SongsComponent implements OnInit {
     this.streamObserver(audio).subscribe(event=>{});
     this.playStatus=true
   }
-
   play(){
     this.audioObj.play();
     this.playStatus=true
@@ -96,17 +97,14 @@ export class SongsComponent implements OnInit {
   pause(){
     this.audioObj.pause();
     this.playStatus=false
-
   }
   stop(){
     this.audioObj.pause();
     this.audioObj.currentTime=0;
+    this.playStatus=false
   }
-
-  timeFormat(time,format="HH:mm:ss"){
+  timeFormat(time,format="mm:ss"){
     const momentTime = time*1000;
     return moment.utc(momentTime).format(format);
-
   }
-
 }

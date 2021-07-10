@@ -3,12 +3,13 @@ import { ActivatedRoute } from '@angular/router';
 import * as moment from 'moment';
 import { Observable } from 'rxjs';
 import { LanguageService } from '../language.service';
+
 @Component({
-  selector: 'app-artistsongs',
-  templateUrl: './artistsongs.component.html',
-  styleUrls: ['./artistsongs.component.css']
+  selector: 'app-genre',
+  templateUrl: './genre.component.html',
+  styleUrls: ['./genre.component.css']
 })
-export class ArtistsongsComponent implements OnInit {
+export class GenreComponent implements OnInit {
 
   songs:any;
   playStatus=false
@@ -18,7 +19,8 @@ export class ArtistsongsComponent implements OnInit {
 
   ngOnInit(): void {
     let id=this.ar.snapshot.params.id;
-    this.tObj.getArtistSongsById(id).subscribe(
+    console.log(id)
+    this.tObj.getSongsByGenre(id).subscribe(
       sdata=>{
         this.songs=sdata;
       },

@@ -3,20 +3,20 @@ img{
     border-top-right-radius: 20px;
     cursor: pointer;
 }
-h1{
-    background-color: rgb(9, 68, 68);
-    opacity: 0.9;
-    color:white;
-    width:70%;
-    margin: auto;
-    border-radius: 30px;
-    font-family: 'Lobster Two', cursive;
-}
 .card{
     border-radius: 20px;
-    background-color: rgb(229, 247, 244);
+    background-color: white;
     box-shadow:5px 3px 2px black;
 }
 p{
+    font-size:15px;
     font-weight: bold;
+}
+hr{
+    color:cadetblue;
+}
+.category{
+    margin-left: 110px;
+    font-family: 'Bona Nova', serif;
+    color:rgb(189, 220, 223)
 }

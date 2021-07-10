@@ -14,17 +14,14 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  onSelectTelugu(id){
+  onSelectLanguage(id){
     this.rObj.navigateByUrl('/home/'+id)
   }
-  onSelectHindi(id){
-    this.rObj.navigateByUrl('/home/'+id)
+  onSelect(id){
+    this.rObj.navigateByUrl('/home/mood/'+id)
   }
-  onSelectTamil(id){
-    this.rObj.navigateByUrl('/home/'+id)
-  }
-  onSelectKannada(id){
-    this.rObj.navigateByUrl('/home/'+id)
+  onSelectTophit(id){
+    this.rObj.navigateByUrl('/home/tophits/'+id)
   }
   
 }

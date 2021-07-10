@@ -3,31 +3,30 @@ import { ActivatedRoute } from '@angular/router';
 import * as moment from 'moment';
 import { Observable } from 'rxjs';
 import { LanguageService } from '../language.service';
-@Component({
-  selector: 'app-artistsongs',
-  templateUrl: './artistsongs.component.html',
-  styleUrls: ['./artistsongs.component.css']
-})
-export class ArtistsongsComponent implements OnInit {
 
+@Component({
+  selector: 'app-tophits',
+  templateUrl: './tophits.component.html',
+  styleUrls: ['./tophits.component.css']
+})
+export class TophitsComponent implements OnInit {
   songs:any;
   playStatus=false
   vol=false
+  constructor(private ar:ActivatedRoute, private sObj:LanguageService) { }
 
-  constructor(private ar:ActivatedRoute, private tObj:LanguageService) { }
-
-  ngOnInit(): void {
+  ngOnInit(): void { 
     let id=this.ar.snapshot.params.id;
-    this.tObj.getArtistSongsById(id).subscribe(
+    this.sObj.getTophitSongs(id).subscribe(
       sdata=>{
         this.songs=sdata;
       },
       err=>{
-        console.log('error in loading data',err)
+        console.log('error in loading data',err.message)
       }
     )
   }
-
+  
   audioObj=new Audio();
   audioEvents=[
     "ended",
@@ -51,7 +50,8 @@ export class ArtistsongsComponent implements OnInit {
       const handler=(event:Event)=>{
         this.seek=this.audioObj.currentTime/(this.audioObj.duration/100);
         this.currenttime=this.timeFormat(this.audioObj.currentTime);
-        this.duration=this.timeFormat(this.audioObj.duration)
+        this.duration=this.timeFormat(this.audioObj.duration);
+        
       }
       this.addEvent(this.audioObj,this.audioEvents,handler)
       return()=>{

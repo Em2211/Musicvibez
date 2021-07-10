@@ -1,3 +1,7 @@
+.title{
+    font-family: 'Bona Nova', serif;
+    font-size: 27px;
+}
 #pointer{
     cursor:pointer;
 }
@@ -11,26 +15,62 @@ img{
     border-radius: 20px;
 }
 .btn{
-    background-color: rgb(4, 100, 107);
+    background-color: #133036;
     color:white;
+    transition: transform 0.3s;
 }
 .btn1{
-    background-color:rgb(22, 100, 105);
+    background-color:#0F292f;
     color:white;
     box-shadow:3px 3px 3px rgb(8, 8, 8);
 }
-
-.volume{
+.seekbar{
     border-radius: 5px;
-    background-color: rgb(9, 54, 59);
+    background-color: #202224;
     box-shadow: 3px 3px 2px black;
 }
 .btn:hover{
-    background-color: rgb(4, 16, 17);
+    background-color: rgb(35, 79, 92);
+    transform: scale(1.1);
 }
 .btn:active{
     background-color: rgb(10, 47, 49);
 }
-input{
+.inp{
     width:80%;
+}
+.inp1{
+    width:70%;
+}
+th{
+    font-size:16px
+}
+td{
+    font-size: 15px;
+}
+span{
+    color:white;
+}
+.icon{
+    cursor:pointer;
+}
+input[type=range]{
+    height:3px;
+}
+
+.hide{
+    display:none;
+}
+.mydiv:hover + .hide{
+    display:inline;
+}
+
+
+@media screen and (max-width:450px){
+    .inp1{
+        width:50%;
+    }
+    img{
+        height:200px;
+    }
 }

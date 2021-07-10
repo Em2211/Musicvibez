@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { AngMusicPlayerModule } from  'ang-music-player';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +9,10 @@ import { FavouritesComponent } from './favourites/favourites.component';
 import { ArtistsongsComponent } from './artistsongs/artistsongs.component';
 import { LanguageComponent } from './language/language.component';
 import { SongsComponent } from './songs/songs.component';
+//import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSliderModule} from '@angular/material/slider';
+import { GenreComponent } from './genre/genre.component';
+import { TophitsComponent } from './tophits/tophits.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +22,16 @@ import { SongsComponent } from './songs/songs.component';
     FavouritesComponent,
     ArtistsongsComponent,
     LanguageComponent,
-    SongsComponent
+    SongsComponent,
+    GenreComponent,
+    TophitsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    AngMusicPlayerModule
+    //BrowserAnimationsModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
