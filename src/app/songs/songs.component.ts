@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import * as moment from 'moment';
 import { Observable } from 'rxjs';
 import { LanguageService } from '../language.service';
+import { UserService } from '../user.service';
 
 @Component({
   selector:'app-songs',
@@ -13,7 +14,7 @@ export class SongsComponent implements OnInit {
   songs:any;
   playStatus=false
   vol=false
-  constructor(private ar:ActivatedRoute, private sObj:LanguageService) { }
+  constructor(private ar:ActivatedRoute, private sObj:LanguageService, private userService:UserService) { }
 
   ngOnInit(): void {
     let lan=this.ar.snapshot.url[1].path; 
@@ -28,6 +29,23 @@ export class SongsComponent implements OnInit {
     )
   }
   
+  //product selected by user
+  onProductSelect(productObject){
+  let username=localStorage.getItem("username")
+  let newUserProductObj={username,productObject}
+  console.log(newUserProductObj.username)
+  this.userService.sendProductToUserCart(newUserProductObj).subscribe(
+     res=>{
+       alert(res['message'])
+       this.userService.updateDataObservable(res.latestCartObj)
+      },
+     err=>{
+       console.log("err in posting product to cart ",err)
+       alert("Something wrong in adding product to cart...")
+      }
+    )
+  }
+
   audioObj=new Audio();
   audioEvents=[
     "ended",

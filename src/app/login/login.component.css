@@ -1,0 +1,21 @@
+h1{
+    color:rgb(192, 19, 19);
+    font-family: 'Arvo', serif;
+    letter-spacing: -1px;
+}
+.form-control{
+    border:none;
+    border-bottom:2px solid black;
+    box-shadow:none !important;
+    border-radius: 0px;
+    
+}
+
+.form-control:focus{
+    border-bottom: 1px solid black;
+}
+#btn1{
+    display:block;
+    margin:auto;
+    background-color: rgb(10, 95, 95);
+}

@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light ">
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand text-white " href="#">
       <!--<img src="https://t3.ftcdn.net/jpg/03/91/69/12/360_F_391691273_pU6ADe9mgUFnDSbsTIoFNTQYuQOCqwrW.jpg" width="60px" height="60px"> -->
@@ -9,33 +10,39 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" routerLink="home" routerLinkActive="active"><i class="fas fa-home me-1"></i>Home</a>
+          <a class="nav-link" routerLink="home" routerLinkActive="active">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="albums" routerLinkActive="active">Albums</a>
+          <a class="nav-link" routerLink="aboutus" routerLinkActive="active">About us</a>
+        </li>
+        <li class="nav-item" *ngIf="!us.userLoginStatus">
+          <a class="nav-link" routerLink="login" routerLinkActive="active">Login</a>
+        </li>
+        <li class="nav-item" *ngIf="us.userLoginStatus" >
+          <a class="nav-link" routerLink="login" routerLinkActive="active" (click)="userLogout()">Logout</a>
+        </li>
+        <li class="nav-item" *ngIf="!us.userLoginStatus">
+          <a class="nav-link" routerLink="signup" routerLinkActive="active">Sign up</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="favourites" routerLinkActive="active"><i class="fas fa-heart me-1"></i>Favourites</a>
+          <a class="nav-link" routerLink="download" routerLinkActive="active">Download</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="signup" routerLinkActive="active"><i class="fas fa-user me-1"></i>Account</a>
+          <a class="nav-link" routerLink="help" routerLinkActive="active">Help</a>
         </li>
-
+        <li class="nav-item" *ngIf="us.userLoginStatus">
+          <a class="nav-link" routerLink="favourites" routerLinkActive="active">Favourites</a>
+        </li>
       </ul>
-      <!--<form class="d-flex">
-        <label for="s1">
-          <h1 class="icon me-3"><i class="fas fa-search m1"></i></h1></label>
-
-        <input type="search" name="" id="s1" class=" form-control me-5 " id=inp placeholder="Search Movie " width=250px>
-
-      </form>-->
     </div>
   </div>
 </nav>
-
-<!--nest products component-->
-<div>
+<!--body-->
+<div class="container-fluid">
   <router-outlet></router-outlet>
 </div>
+
+<!--footer-->
+<app-footer></app-footer>

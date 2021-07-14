@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #0a5e57;
+    background-color: rgb(12, 24, 66);
 }
 .navbar-brand{
     font-weight: bold;
@@ -10,7 +10,7 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav-link{
-    font-size: 18px;
+    font-size: 17px;
     margin-right: 20px;
     color:#E3E2Df !important;
 }
@@ -20,7 +20,6 @@ span{
     border-radius: 5px;
 }
 .active{
-    font-size: 19px;
     font-weight:bold;
     border-radius: 0px;
     border-bottom: 2px solid white;
@@ -32,6 +31,6 @@ span{
 
 @media screen and (max-width:450px){
     .navbar-brand{
-        font-size: 15px;
+        font-size:15px;
     }
 }

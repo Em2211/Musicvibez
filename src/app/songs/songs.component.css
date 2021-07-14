@@ -6,35 +6,27 @@
     cursor:pointer;
 }
 #pointer:hover{
-    background-color: rgb(47, 103, 105);
+    background-color: rgb(47, 48, 105);
 }
 #pointer.active{
-    background-color:rgb(33, 78, 80) ;
+    background-color:rgb(33, 48, 80) ;
 }
 img{
     border-radius: 20px;
 }
 .btn{
-    background-color: #133036;
+    background-color: #18315f;
     color:white;
     transition: transform 0.3s;
 }
-.btn1{
-    background-color:#0F292f;
-    color:white;
-    box-shadow:3px 3px 3px rgb(8, 8, 8);
+.btn:hover{
+    background-color: #120e3f;
+    transform: scale(1.05);
 }
 .seekbar{
     border-radius: 5px;
     background-color: #202224;
     box-shadow: 3px 3px 2px black;
-}
-.btn:hover{
-    background-color: rgb(35, 79, 92);
-    transform: scale(1.1);
-}
-.btn:active{
-    background-color: rgb(10, 47, 49);
 }
 .inp{
     width:80%;
@@ -71,6 +63,10 @@ input[type=range]{
         width:50%;
     }
     img{
-        height:200px;
+        height:180px;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: 10px;
     }
 }

@@ -1,0 +1,5 @@
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+    background-color: rgb(5, 11, 32);
+}

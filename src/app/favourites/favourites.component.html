@@ -1,1 +1,5 @@
-<p>favourites works!</p>
+<div *ngIf=products>
+    <div *ngFor="let p of userCartObj.products">
+        <img src="{{p.cover}}" alt="" height="150px">
+    </div>
+</div>
