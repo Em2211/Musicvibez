@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import * as moment from 'moment';
 import { Observable } from 'rxjs';
 import { LanguageService } from '../language.service';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-genre',
@@ -15,7 +16,7 @@ export class GenreComponent implements OnInit {
   playStatus=false
   vol=false
 
-  constructor(private ar:ActivatedRoute, private tObj:LanguageService) { }
+  constructor(private ar:ActivatedRoute, private tObj:LanguageService, private userService:UserService) { }
 
   ngOnInit(): void {
     let id=this.ar.snapshot.params.id;
@@ -29,6 +30,25 @@ export class GenreComponent implements OnInit {
       }
     )
   }
+
+  //product selected by user
+  onProductSelect(productObject,id,img){
+    productObject["movie"]=id;
+    
+    let username=localStorage.getItem("username")
+    let newUserProductObj={username,productObject}
+    this.userService.sendProductToUserCart(newUserProductObj).subscribe(
+       res=>{
+         alert(res['message'])
+         this.userService.updateDataObservable(res.latestCartObj)
+        },
+       err=>{
+         console.log("err in posting product to cart",err)
+         alert("Something wrong in adding product to cart...")
+        }
+      )
+    }
+
 
   audioObj=new Audio();
   audioEvents=[

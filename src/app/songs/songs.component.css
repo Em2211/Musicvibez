@@ -8,9 +8,6 @@
 #pointer:hover{
     background-color: rgb(47, 48, 105);
 }
-#pointer.active{
-    background-color:rgb(33, 48, 80) ;
-}
 img{
     border-radius: 20px;
 }

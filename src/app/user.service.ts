@@ -9,10 +9,9 @@ export class UserService {
   userLoginStatus=false;
   dataSource=new BehaviorSubject<any>(0)
     dataObservable=this.dataSource.asObservable();
-
      updateDataObservable(data){
        this.dataSource.next(data)
-     }
+    }
 
   //inject http client object
   constructor(private hc:HttpClient) { 

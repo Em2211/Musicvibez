@@ -14,6 +14,7 @@ export class SongsComponent implements OnInit {
   songs:any;
   playStatus=false
   vol=false
+
   constructor(private ar:ActivatedRoute, private sObj:LanguageService, private userService:UserService) { }
 
   ngOnInit(): void {
@@ -30,17 +31,17 @@ export class SongsComponent implements OnInit {
   }
   
   //product selected by user
-  onProductSelect(productObject){
+  onProductSelect(productObject,id){
+  productObject["movie"]=id;
   let username=localStorage.getItem("username")
   let newUserProductObj={username,productObject}
-  console.log(newUserProductObj.username)
   this.userService.sendProductToUserCart(newUserProductObj).subscribe(
      res=>{
        alert(res['message'])
        this.userService.updateDataObservable(res.latestCartObj)
       },
      err=>{
-       console.log("err in posting product to cart ",err)
+       console.log("err in posting product to cart",err)
        alert("Something wrong in adding product to cart...")
       }
     )
@@ -70,13 +71,11 @@ export class SongsComponent implements OnInit {
         this.seek=this.audioObj.currentTime/(this.audioObj.duration/100);
         this.currenttime=this.timeFormat(this.audioObj.currentTime);
         this.duration=this.timeFormat(this.audioObj.duration);
-        
       }
       this.addEvent(this.audioObj,this.audioEvents,handler)
       return()=>{
         this.audioObj.pause();
         this.audioObj.currentTime=0;
-
         this.removeEvent (this.audioObj,this.audioEvents,handler)
       }
     });

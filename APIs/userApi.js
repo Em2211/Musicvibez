@@ -124,10 +124,12 @@ userApi.post("/add-to-cart", expressErrorHandler(async (req, res, next) => {
     //find usercartcollection 
     let userCartObj = await userCartCollectionObject.findOne({username:newProdObject.username})
 
-    console.log(userCartObj)
     //if userCartObj is not existed
-    if (userCartObj === null) {
-
+    if(newProdObject.username===null){
+        res.send({message:"Login required"})
+    }
+    else if (userCartObj === null) {
+        
         //create new object
         let products = [];
         products.push(newProdObject.productObject)
@@ -135,8 +137,7 @@ userApi.post("/add-to-cart", expressErrorHandler(async (req, res, next) => {
         let newUserCartObject = { username:newProdObject.username, products }
 
         //insert it
-        await userCartCollectionObject.insertOne(newUserCartObject)
-
+        await userCartCollectionObject.insertOne(newUserCartObject)        
         let latestCartObj = await userCartCollectionObject.findOne({ username:newProdObject.username })
         res.send({ message: "New product Added", latestCartObj: latestCartObj })
 
@@ -148,7 +149,7 @@ userApi.post("/add-to-cart", expressErrorHandler(async (req, res, next) => {
         //update document
         await userCartCollectionObject.updateOne({ username: newProdObject.username }, { $set: { ...userCartObj } })
         let latestCartObj = await userCartCollectionObject.findOne({ username: newProdObject.username })
-        res.send({ message: "New product Added", latestCartObj: latestCartObj })
+        res.send({ message: "New song added to favourites", latestCartObj: latestCartObj })
     }
 
 }))

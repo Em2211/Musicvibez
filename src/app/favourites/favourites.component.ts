@@ -35,13 +35,14 @@ export class FavouritesComponent implements OnInit {
          })
        }
      )
+     console.log(this.products)
      //get user data from local storage
      this.userObj= JSON.parse(localStorage.getItem("userObj"))
     let username=localStorage.getItem("username")
     this.us.getProductsFromUserCart(username).subscribe(
       res=>{
-        if(res["message"]==='Watchlist-empty'){
-          alert("User watchlist is empty")
+        if(res["message"]==='Cart-empty'){
+          alert("User cart is empty")
         }
         else{
           this.userCartObj=res["message"]    

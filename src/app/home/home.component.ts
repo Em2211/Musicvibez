@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { LanguageService } from '../language.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -7,11 +8,20 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private rObj:Router) { 
+  artists:any;
+  constructor(private rObj:Router, private tObj:LanguageService) { 
 
   }
 
   ngOnInit(): void {
+    this.tObj.getArtists().subscribe(
+      adata=>{
+        this.artists=adata;
+      },
+      err=>{
+        console.log('error in loading data',err)
+      }
+    )
   }
   
   onSelectLanguage(id){
@@ -23,5 +33,9 @@ export class HomeComponent implements OnInit {
   onSelectTophit(id){
     this.rObj.navigateByUrl('/home/tophits/'+id)
   }
+  onClick(id){
+    this.rObj.navigateByUrl('home/artists/'+id)
+  }
+
   
 }

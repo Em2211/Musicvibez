@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutusComponent } from './aboutus/aboutus.component';
-import { AlbumsComponent } from './albums/albums.component';
 import { ArtistsongsComponent } from './artistsongs/artistsongs.component';
 import { DownloadComponent } from './download/download.component';
 import { FavouritesComponent } from './favourites/favourites.component';
@@ -21,16 +20,18 @@ const routes: Routes = [
   {path:'download',component:DownloadComponent},
   {path:'help',component:HelpComponent},
   {path:'home',component:HomeComponent},
-  {path:'albums',component:AlbumsComponent},
   {path:'favourites',component:FavouritesComponent},  
   {path:'home/:id',component:LanguageComponent},
   {path:'home/mood/:id',component:GenreComponent},
   {path:'home/tophits/:id',component:TophitsComponent},
+  {path:'home/artists/:id',component:ArtistsongsComponent},
   {path:'home/Telugu/:id',component:SongsComponent},
   {path:'home/Hindi/:id',component:SongsComponent},
   {path:'home/Tamil/:id',component:SongsComponent},
   {path:'home/Kannada/:id',component:SongsComponent},
-  {path:'albums/artists/:id',component:ArtistsongsComponent},
+  {path:'home/English/:id',component:SongsComponent},
+  {path:'home/Malayalam/:id',component:SongsComponent},
+  {path:'home/Punjabi/:id',component:SongsComponent},
   {path:'',component:HomeComponent}
 
   //{ path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) }
@@ -38,7 +39,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{useHash:true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

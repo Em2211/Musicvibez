@@ -1,8 +1,9 @@
 img{
-    border-top-left-radius: 20px;
-    border-top-right-radius:20px ;
+    border-radius: 15px;
     cursor: pointer;
+    box-shadow:3px 3px 3px rgb(43, 42, 42);
 }
+
 h1{
     text-shadow: 1px 2px 1px rgb(75, 74, 74);
     color:white;
@@ -12,15 +13,9 @@ h1{
     font-family: 'Lobster Two', cursive;
     font-size: 38px;
 }
-h3{
-    font-weight: bold;
-}
 p{
-    line-height:0%;
-    font-weight:bold;
-}
-.card{
-    border-radius: 20px;
+    font-family: 'Alice', serif;
+    font-size:17px;
 }
 
 @media screen and (max-width:450px){

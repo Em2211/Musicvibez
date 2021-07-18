@@ -8,6 +8,7 @@ import { LanguageService } from '../language.service';
   styleUrls: ['./language.component.css']
 })
 export class LanguageComponent implements OnInit {
+  searchTerm:string;
   languages:any;
   constructor( private sObj:Router,private tObj:LanguageService,private ar:ActivatedRoute) { }
   ngOnInit(): void {

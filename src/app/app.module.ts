@@ -17,6 +17,7 @@ import { LanguageComponent } from './language/language.component';
 import { SongsComponent } from './songs/songs.component';
 import { GenreComponent } from './genre/genre.component';
 import { TophitsComponent } from './tophits/tophits.component';
+import { SearchPipe } from './search.pipe';
 //import { AdminModule } from './admin/admin.module';
 
 
@@ -35,7 +36,8 @@ import { TophitsComponent } from './tophits/tophits.component';
     LanguageComponent,
     SongsComponent,
     GenreComponent,
-    TophitsComponent
+    TophitsComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,7 @@
                         <h1 class="mt-2 title">{{songs.id}}</h1>
                         <h2 class="text-secondary">{{songs.actors}}</h2>
                         <button class="btn btn1 mt-lg-2 me-2">Download</button>
-                        <button class="btn btn1 mt-lg-2" (click)="onProductSelect(songs)">add to favourites</button>
+                        <button class="btn btn1 mt-lg-2" >Share</button>
                     </div>
                 </div>  
             </div>
@@ -62,18 +62,27 @@
                     <th>Song</th>
                     <th>Artists</th>
                     <th><i class="far fa-clock"></i></th>
+                    <th></th>
                     </tr>
                 </thead>
-                <tbody *ngFor="let s of songs.movie" id="pointer">
+                <tbody *ngFor="let s of songs.songs" id="pointer">
                     <tr>
-                    <td>{{s.sid}}</td>
-                    <td (click)="openSong(s.audio)" id="pointer">{{s.sname}}</td>
-                    <td>{{s.singer}}</td>
-                    <td>{{s.time}}</td>
+                        <td>{{s.sid}}</td>
+                        <td (click)="openSong(s.audio)" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click on song to play">{{s.sname}}</td>
+                        <td>{{s.singer}}</td>
+                        <td>{{s.time}}</td>
+                        <td>
+                            <div class="dropdown d-inline">
+                                <i class="fas fa-ellipsis-v" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" (click)="onProductSelect(s,songs.id)">Add to favourites</a></li>
+                                    <li><a class="dropdown-item">download</a></li>
+                                </ul>
+                            </div>
+                        </td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
-

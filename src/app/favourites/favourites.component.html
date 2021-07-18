@@ -1,5 +1,33 @@
-<div *ngIf=products>
-    <div *ngFor="let p of userCartObj.products">
-        <img src="{{p.cover}}" alt="" height="150px">
+<div *ngIf=userCartObj.products>
+<!-- <li class="nav-item">
+    <a class="nav-link" routerLinkActive="active" routerLink="cart">
+        <i class="fas fa-cart-arrow-down" style="color: #ec2399;"></i>
+        Cart <span class="badge bg-dark text-white ms-2">{{count}}</span>
+    </a>
+</li> -->
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <h2 class="me-3 mt-3 mb-2 text-secondary text-end">Welcome, <span>{{userObj.username}}<i class="far fa-smile text-white ms-2 me-4 mt-3 mb-2"></i></span></h2>
+        <h2 class="text-secondary me-4 text-end">{{userObj.email}}</h2>
+        <table class="table text-center mx-auto mt-5">
+            <thead class="text-white">
+                <th>Image</th>
+                <th>Movie</th>
+                <th>Song</th>
+                <th>Artists</th>
+                <th><i class="far fa-clock"></i></th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let song of userCartObj.products" class="text-white mt-2">
+                    <td><img src={{song.scover}} width="100px" height="100px" alt=""></td>
+                    <td class="pt-4">{{song.movie}}</td>
+                    <td class="pt-4">{{song.sname}}</td>
+                    <td class="pt-4">{{song.singer}}</td>
+                    <td class="pt-4">{{song.time}}</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+</div>
 </div>
