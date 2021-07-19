@@ -65,7 +65,7 @@
                     <th></th>
                     </tr>
                 </thead>
-                <tbody *ngFor="let s of songs.songs" id="pointer">
+                <tbody *ngFor="let s of songs.movie" id="pointer">
                     <tr>
                         <td>{{s.sid}}</td>
                         <td (click)="openSong(s.audio)" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click on song to play">{{s.sname}}</td>

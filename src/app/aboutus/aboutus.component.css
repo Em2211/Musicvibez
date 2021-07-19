@@ -1,6 +1,19 @@
 .part1{
-    background-color: rgb(110, 185, 219);
-    padding: 40px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMYJL54VRQK511vjpA8H8T5Wn3vWv61svDqA&usqp=CAU');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.heading1{
+  font-size: 30px;
+  --animate-duration: 2s;
+  letter-spacing: 3px;
+  font-family: 'Bree Serif', serif;
+}
+.heading2{
+  font-size: 40px;
+  --animate-duration: 5s;
+  letter-spacing: 3px;
+  font-family: 'Bree Serif', serif;
 }
 .btn{
     border-radius: 20px;
@@ -9,7 +22,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 
 html, body{
     margin: 0;
